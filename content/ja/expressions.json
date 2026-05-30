@@ -1,56 +1,51 @@
 [
   {
-    "id": "konnichiwa",
-    "text": "こんにちは。",
-    "reading": "こんにちは",
-    "romaji": "Konnichiwa.",
-    "ko": "안녕하세요. (낮 인사)",
-    "examples": ["こんにちは、はじめまして。(안녕하세요, 처음 뵙겠습니다.)"],
+    "id": "ja-kinou-ramen",
+    "text": "昨日、友達とラーメンを食べました。",
+    "reading": "きのう、ともだちとラーメンをたべました",
+    "romaji": "Kinou, tomodachi to rāmen o tabemashita.",
+    "ko": "어제 친구와 라멘을 먹었습니다. (테스트 문장 교정판!)",
+    "examples": ["昨日、友達と映画を見ました。 (어제 친구와 영화를 봤습니다.)"],
     "paraphrases": [
-      "おはようございます。(아침 인사)",
-      "こんばんは。(저녁 인사)",
-      "やあ！(친한 사이의 가벼운 인사)"
+      "昨日、友達とラーメン食べた。 (반말)",
+      "友達と一緒にラーメンを食べました。 (一緒に=함께를 강조)"
     ],
-    "tags": ["greeting"]
+    "tags": ["과거", "lesson-1"]
   },
   {
-    "id": "arigatou-gozaimasu",
-    "text": "ありがとうございます。",
-    "reading": "ありがとうございます",
-    "romaji": "Arigatou gozaimasu.",
-    "ko": "감사합니다.",
-    "examples": ["たすけてくれてありがとうございます。(도와주셔서 감사합니다.)"],
+    "id": "ja-chotto-matte",
+    "text": "ちょっと待ってください。",
+    "reading": "ちょっとまってください",
+    "romaji": "Chotto matte kudasai.",
+    "ko": "잠깐만 기다려 주세요.",
+    "examples": ["ちょっと待ってください、今行きます。 (잠깐만요, 지금 갑니다.)"],
     "paraphrases": [
-      "ありがとう。(반말: 고마워)",
-      "どうもありがとうございます。(정말 감사합니다)",
-      "かんしゃします。(감사드립니다 — 격식)"
+      "少々お待ちください。 (shōshō omachi kudasai — 더 격식)",
+      "ちょっと待って。 (반말: 잠깐 기다려)"
     ],
-    "tags": ["greeting", "polite"]
+    "tags": ["요청", "정중", "て형"]
   },
   {
-    "id": "watashi-wa-desu",
-    "text": "わたしは ジンタク です。",
-    "reading": "わたしは ジンタク です",
-    "romaji": "Watashi wa Jintaku desu.",
-    "ko": "저는 진탁입니다.",
-    "examples": ["わたしは かんこくじん です。(저는 한국인입니다.)"],
+    "id": "ja-benkyou-shite-imasu",
+    "text": "日本語を勉強しています。",
+    "reading": "にほんごをべんきょうしています",
+    "romaji": "Nihongo o benkyō shite imasu.",
+    "ko": "일본어를 공부하고 있습니다. (〜ています = 진행/상태)",
+    "examples": ["毎日少し日本語を勉強しています。 (매일 조금씩 일본어를 공부하고 있습니다.)"],
     "paraphrases": [
-      "ジンタクと もうします。(진탁이라고 합니다 — 정중)",
-      "ぼくは ジンタク です。(남성 반말 느낌의 ぼく)"
+      "日本語を勉強します。 (단순 현재: 공부합니다)",
+      "日本語を習っています。 (naratte imasu — 배우고 있습니다)"
     ],
-    "tags": ["self-intro"]
+    "tags": ["진행", "て형", "ています"]
   },
   {
-    "id": "sumimasen",
-    "text": "すみません。",
-    "reading": "すみません",
-    "romaji": "Sumimasen.",
-    "ko": "실례합니다 / 죄송합니다.",
-    "examples": ["すみません、これは いくらですか？(실례합니다, 이거 얼마예요?)"],
-    "paraphrases": [
-      "ごめんなさい。(미안합니다 — 사과)",
-      "しつれいします。(실례하겠습니다 — 격식)"
-    ],
-    "tags": ["polite"]
+    "id": "ja-itta-koto-ga-aru",
+    "text": "日本に行ったことがあります。",
+    "reading": "にほんにいったことがあります",
+    "romaji": "Nihon ni itta koto ga arimasu.",
+    "ko": "일본에 간 적이 있습니다. (〜たことがある = 경험)",
+    "examples": ["寿司を食べたことがあります。 (초밥을 먹은 적이 있습니다.)"],
+    "paraphrases": ["日本に行ったことがない。 (간 적이 없다 — 부정)"],
+    "tags": ["경험", "た형", "N4"]
   }
 ]
