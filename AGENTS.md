@@ -46,13 +46,12 @@ Claude tutors the user in chat AND keeps this site updated. After a study sessio
 - next-themes (dark mode), lucide-react (icons), react-markdown + remark-gfm (daily logs)
 
 ## Commands
-> ⚠️ **Node version:** pnpm 10.29 requires Node ≥ 22.13, but the default is 22.12. Either `fnm use 22.15.0` first, or run the binaries directly:
+Node **24 LTS** is the default (via fnm), so pnpm works normally:
 ```bash
-node_modules/.bin/next dev      # dev server → http://localhost:3000
-node_modules/.bin/next build    # production build
-node_modules/.bin/next lint     # lint
+pnpm dev      # dev server → http://localhost:3000
+pnpm build    # production build
+pnpm lint     # lint
 ```
-With Node ≥ 22.13 you can use `pnpm dev` / `pnpm build` as normal.
 
 ## PWA
 The app is an installable PWA: `app/manifest.ts` (webmanifest), icons in `public/` + `app/`, offline service worker at `public/sw.js`, registered by `components/pwa-register.tsx`. To bust the SW cache after a change, bump `CACHE` in `public/sw.js`.

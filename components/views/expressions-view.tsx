@@ -40,11 +40,11 @@ export function ExpressionsView({
           {filtered.map((it) => (
             <Card key={it.id}>
               <CardHeader>
-                <div className="flex items-start gap-2">
+                <div className="flex items-center gap-2">
                   <CardTitle className="text-base leading-relaxed">
                     {it.text}
                   </CardTitle>
-                  <SpeakButton text={it.text} lang={ttsLang} className="mt-0.5" />
+                  <SpeakButton text={it.text} lang={ttsLang} />
                 </div>
                 {(it.reading || it.romaji) && (
                   <p className="text-sm text-muted-foreground">
@@ -61,7 +61,7 @@ export function ExpressionsView({
                 </div>
                 <ul className="space-y-1 text-sm">
                   {it.paraphrases.map((p) => (
-                    <li key={p} className="flex items-start gap-2">
+                    <li key={p} className="flex items-center gap-2">
                       <SpeakButton text={p} lang={ttsLang} />
                       <span>{p}</span>
                     </li>

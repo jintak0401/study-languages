@@ -30,9 +30,9 @@ After each session, update files under `content/ja/` so the site reflects progre
 - Japanese pages live at `/ja/...` (e.g., `/ja/plan`, `/ja/vocabulary`). The language switcher toggles EN ⇄ 日本語.
 
 ## Publish your changes
-> Node ≥ 22.13 lets you use `pnpm`; otherwise use the local binary.
+> Node 24 LTS is the default, so `pnpm` works.
 ```bash
-node_modules/.bin/next build      # sanity check
+pnpm build      # sanity check
 git add -A && git commit -m "Japanese: <what you taught>" && git push   # if git auto-deploy is set up
 # OR deploy directly:
 npx vercel deploy --prod --yes

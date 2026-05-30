@@ -44,14 +44,14 @@ export function GrammarView({
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="grid gap-2">
-                  <p className="flex items-start gap-2 text-sm">
-                    <X className="mt-0.5 size-4 shrink-0 text-destructive" />
+                  <p className="flex items-center gap-2 text-sm">
+                    <X className="size-4 shrink-0 text-destructive" />
                     <span className="text-muted-foreground line-through">
                       {it.wrong}
                     </span>
                   </p>
-                  <p className="flex items-start gap-2 text-sm">
-                    <Check className="mt-0.5 size-4 shrink-0 text-success" />
+                  <p className="flex items-center gap-2 text-sm">
+                    <Check className="size-4 shrink-0 text-success" />
                     <span className="font-medium">{it.right}</span>
                     <SpeakButton text={it.right} lang={ttsLang} />
                   </p>
