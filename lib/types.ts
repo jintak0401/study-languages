@@ -42,6 +42,8 @@ export interface GrammarPoint {
   right: string;
   examples: string[];
   tags: string[];
+  /** Optional in-depth explanation (Markdown, supports GFM tables). Shown when the card is expanded. */
+  detail?: string;
 }
 
 export interface VocabularyItem {
