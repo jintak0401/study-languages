@@ -1,0 +1,57 @@
+[
+  {
+    "id": "essence",
+    "word": "essence",
+    "partOfSpeech": "noun",
+    "meaning": "본질 — the most important quality or part of something",
+    "examples": [
+      "The essence of studying a language is communication.",
+      "In essence, the two plans are the same."
+    ],
+    "tags": ["abstract"]
+  },
+  {
+    "id": "consider",
+    "word": "consider",
+    "partOfSpeech": "verb",
+    "meaning": "고려하다 — to think carefully about something",
+    "examples": [
+      "Please consider re-rendering for optimization.",
+      "Have you considered learning with flashcards?"
+    ],
+    "tags": ["thinking"]
+  },
+  {
+    "id": "optimization",
+    "word": "optimization",
+    "partOfSpeech": "noun",
+    "meaning": "최적화 — making something as good or efficient as possible",
+    "examples": [
+      "Re-render optimization keeps the app fast.",
+      "The team focused on performance optimization."
+    ],
+    "tags": ["tech"]
+  },
+  {
+    "id": "trial-and-error",
+    "word": "trial and error",
+    "partOfSpeech": "noun phrase",
+    "meaning": "시행착오 — trying different things until one works",
+    "examples": [
+      "I learned to code through trial and error.",
+      "We found the answer by trial and error."
+    ],
+    "tags": ["learning", "idiom"]
+  },
+  {
+    "id": "paraphrase",
+    "word": "paraphrase",
+    "partOfSpeech": "verb / noun",
+    "meaning": "다른 말로 바꿔 표현하다 — to say the same thing in different words",
+    "examples": [
+      "Can you paraphrase that sentence?",
+      "Paraphrasing helps you sound more natural."
+    ],
+    "tags": ["learning"]
+  }
+]

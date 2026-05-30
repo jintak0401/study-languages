@@ -1,0 +1,75 @@
+[
+  {
+    "id": "want-someone-to",
+    "title": "want + someone + to + verb",
+    "rule": "After 'want', a person is followed by 'to' + base verb.",
+    "wrong": "I want you build it.",
+    "right": "I want you to build it.",
+    "examples": [
+      "I want you to consider re-rendering for optimization.",
+      "She wants me to call her tomorrow.",
+      "They want us to finish by Friday."
+    ],
+    "tags": ["verbs", "infinitive"]
+  },
+  {
+    "id": "talk-with-to",
+    "title": "talk with / to someone",
+    "rule": "Use the preposition 'with' or 'to' before a person.",
+    "wrong": "I want to talk people.",
+    "right": "I want to talk with people.",
+    "examples": [
+      "Can I talk to you for a second?",
+      "I talked with my teacher about it."
+    ],
+    "tags": ["prepositions", "verbs"]
+  },
+  {
+    "id": "every-singular-noun",
+    "title": "every + singular noun",
+    "rule": "'every' is always followed by a singular noun.",
+    "wrong": "Please point out every mistakes.",
+    "right": "Please point out every mistake.",
+    "examples": [
+      "I study every day.",
+      "Every person is different."
+    ],
+    "tags": ["nouns", "quantifiers"]
+  },
+  {
+    "id": "make-vs-do",
+    "title": "make a mistake (not 'do')",
+    "rule": "We 'make' mistakes, decisions, and plans; we 'do' homework and work.",
+    "wrong": "I did a mistake.",
+    "right": "I made a mistake.",
+    "examples": [
+      "Don't worry if you make a mistake.",
+      "I need to make a decision soon."
+    ],
+    "tags": ["collocations", "verbs"]
+  },
+  {
+    "id": "articles-countable",
+    "title": "Articles with singular countable nouns",
+    "rule": "A singular countable noun needs an article: a / an / the.",
+    "wrong": "You can use state management library.",
+    "right": "You can use a state management library.",
+    "examples": [
+      "I bought a book.",
+      "She is an engineer."
+    ],
+    "tags": ["articles", "nouns"]
+  },
+  {
+    "id": "whether-clause",
+    "title": "whether (~인지 아닌지)",
+    "rule": "Use 'whether' (or 'if') to turn a yes/no question into part of a sentence.",
+    "wrong": "I don't know it will sync.",
+    "right": "I don't know whether it will sync.",
+    "examples": [
+      "This decides whether your data follows you across devices.",
+      "It depends on whether you study every day."
+    ],
+    "tags": ["clauses", "conjunctions"]
+  }
+]
