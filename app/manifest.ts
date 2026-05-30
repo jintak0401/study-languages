@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Study English",
-    short_name: "Study EN",
-    description: "A personal space to study English — anywhere, anytime.",
-    start_url: "/",
+    name: "Study Languages",
+    short_name: "Study",
+    description: "A personal space to study languages — anywhere, anytime.",
+    start_url: "/en",
     display: "standalone",
     background_color: "#ffffff",
     theme_color: "#6366f1",

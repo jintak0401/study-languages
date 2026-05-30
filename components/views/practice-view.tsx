@@ -6,6 +6,7 @@ import { Check, RotateCcw, Shuffle, X } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { SpeakButton } from "@/components/speak-button";
 import { useHydrated, useProgressStore } from "@/lib/store/progress";
 import { cn } from "@/lib/utils";
 
@@ -13,6 +14,8 @@ export interface PracticeCard {
   id: string;
   front: string;
   back: string;
+  /** Target-language text to read aloud. */
+  speak: string;
   kind: string;
 }
 
@@ -25,7 +28,13 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-export function PracticeView({ cards }: { cards: PracticeCard[] }) {
+export function PracticeView({
+  cards,
+  ttsLang,
+}: {
+  cards: PracticeCard[];
+  ttsLang: string;
+}) {
   const [mode, setMode] = useState<"flashcards" | "quiz">("flashcards");
 
   if (cards.length === 0) {
@@ -52,15 +61,21 @@ export function PracticeView({ cards }: { cards: PracticeCard[] }) {
         ))}
       </div>
       {mode === "flashcards" ? (
-        <FlashcardDeck cards={cards} />
+        <FlashcardDeck cards={cards} ttsLang={ttsLang} />
       ) : (
-        <Quiz cards={cards} />
+        <Quiz cards={cards} ttsLang={ttsLang} />
       )}
     </div>
   );
 }
 
-function FlashcardDeck({ cards }: { cards: PracticeCard[] }) {
+function FlashcardDeck({
+  cards,
+  ttsLang,
+}: {
+  cards: PracticeCard[];
+  ttsLang: string;
+}) {
   const hydrated = useHydrated();
   const [order, setOrder] = useState(() => cards.map((_, i) => i));
   const [pos, setPos] = useState(0);
@@ -96,19 +111,24 @@ function FlashcardDeck({ cards }: { cards: PracticeCard[] }) {
         </Button>
       </div>
 
-      <button
-        type="button"
-        onClick={() => setFlipped((f) => !f)}
-        className="flex min-h-44 w-full flex-col items-center justify-center gap-3 rounded-xl border border-border bg-card p-8 text-center shadow-sm transition-colors hover:border-primary/50"
-      >
-        <Badge variant="outline">{card.kind}</Badge>
-        <span className="text-xl font-semibold">
-          {flipped ? card.back : card.front}
-        </span>
-        <span className="text-xs text-muted-foreground">
-          {flipped ? "Tap to hide" : "Tap to reveal"}
-        </span>
-      </button>
+      <div className="relative rounded-xl border border-border bg-card shadow-sm">
+        <div className="absolute right-3 top-3 flex items-center gap-2">
+          <Badge variant="outline">{card.kind}</Badge>
+          <SpeakButton text={card.speak} lang={ttsLang} />
+        </div>
+        <button
+          type="button"
+          onClick={() => setFlipped((f) => !f)}
+          className="flex min-h-44 w-full flex-col items-center justify-center gap-3 p-8 text-center"
+        >
+          <span className="text-xl font-semibold">
+            {flipped ? card.back : card.front}
+          </span>
+          <span className="text-xs text-muted-foreground">
+            {flipped ? "Tap to hide" : "Tap to reveal"}
+          </span>
+        </button>
+      </div>
 
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div className="flex gap-2">
@@ -136,20 +156,17 @@ interface Question {
   options: string[];
 }
 
-function Quiz({ cards }: { cards: PracticeCard[] }) {
+function Quiz({ cards, ttsLang }: { cards: PracticeCard[]; ttsLang: string }) {
   const [seed, setSeed] = useState(0);
   const [pos, setPos] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [score, setScore] = useState(0);
 
   const questions = useMemo<Question[]>(() => {
-    void seed; // re-shuffle when seed changes
+    void seed;
     const backs = cards.map((c) => c.back);
     return shuffle(cards).map((card) => {
-      const distractors = shuffle(backs.filter((b) => b !== card.back)).slice(
-        0,
-        3,
-      );
+      const distractors = shuffle(backs.filter((b) => b !== card.back)).slice(0, 3);
       return { card, options: shuffle([card.back, ...distractors]) };
     });
   }, [cards, seed]);
@@ -166,7 +183,6 @@ function Quiz({ cards }: { cards: PracticeCard[] }) {
 
   function next() {
     if (isLast) {
-      // restart
       setSeed((s) => s + 1);
       setPos(0);
       setScore(0);
@@ -187,11 +203,12 @@ function Quiz({ cards }: { cards: PracticeCard[] }) {
 
       <Card>
         <CardContent className="space-y-1 p-5">
-          <Badge variant="outline">{q.card.kind}</Badge>
+          <div className="flex items-center gap-2">
+            <Badge variant="outline">{q.card.kind}</Badge>
+            <SpeakButton text={q.card.speak} lang={ttsLang} />
+          </div>
           <p className="pt-2 text-lg font-semibold">{q.card.front}</p>
-          <p className="text-sm text-muted-foreground">
-            Which one matches?
-          </p>
+          <p className="text-sm text-muted-foreground">Which one matches?</p>
         </CardContent>
       </Card>
 
@@ -209,16 +226,11 @@ function Quiz({ cards }: { cards: PracticeCard[] }) {
                 "flex items-center justify-between gap-2 rounded-lg border border-border px-4 py-3 text-left text-sm transition-colors",
                 !answered && "hover:border-primary/50 hover:bg-accent",
                 answered && correct && "border-success bg-success/10",
-                answered &&
-                  chosen &&
-                  !correct &&
-                  "border-destructive bg-destructive/10",
+                answered && chosen && !correct && "border-destructive bg-destructive/10",
               )}
             >
               <span>{opt}</span>
-              {answered && correct && (
-                <Check className="size-4 text-success" />
-              )}
+              {answered && correct && <Check className="size-4 text-success" />}
               {answered && chosen && !correct && (
                 <X className="size-4 text-destructive" />
               )}

@@ -1,0 +1,26 @@
+{
+  "title": "English conversation roadmap",
+  "intro": "Goal: hold easy, natural conversations with people from other countries.",
+  "stages": [
+    {
+      "id": "s1",
+      "title": "Everyday conversation",
+      "goal": "Survive simple daily situations in English.",
+      "steps": [
+        { "id": "s1-1", "title": "Greetings & small talk", "detail": "Hi / How are you? / Nice to meet you / What do you do?" },
+        { "id": "s1-2", "title": "Talk about yourself", "detail": "Name, job, hobbies, where you're from." },
+        { "id": "s1-3", "title": "Ask simple questions", "detail": "Where / when / how much / can you…?" }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Fluency builders",
+      "goal": "Say the same idea in more than one way.",
+      "steps": [
+        { "id": "s2-1", "title": "Paraphrasing", "detail": "Practice 3 ways to say each phrase (see Expressions)." },
+        { "id": "s2-2", "title": "Give opinions", "detail": "I think… / In my opinion… / I'd say…" },
+        { "id": "s2-3", "title": "Fix mistakes naturally", "detail": "Review the Mistakes page; avoid repeats." }
+      ]
+    }
+  ]
+}

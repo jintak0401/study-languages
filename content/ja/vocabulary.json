@@ -1,0 +1,82 @@
+[
+  {
+    "id": "konnichiwa",
+    "word": "こんにちは",
+    "reading": "こんにちは",
+    "romaji": "konnichiwa",
+    "partOfSpeech": "인사",
+    "meaning": "안녕하세요 (낮 인사)",
+    "examples": ["こんにちは！(안녕하세요!)"],
+    "tags": ["greeting"]
+  },
+  {
+    "id": "arigatou",
+    "word": "ありがとう",
+    "reading": "ありがとう",
+    "romaji": "arigatou",
+    "partOfSpeech": "인사",
+    "meaning": "고마워 (정중: ありがとうございます)",
+    "examples": ["ありがとうございます。(감사합니다.)"],
+    "tags": ["greeting"]
+  },
+  {
+    "id": "hai-iie",
+    "word": "はい / いいえ",
+    "reading": "はい / いいえ",
+    "romaji": "hai / iie",
+    "partOfSpeech": "표현",
+    "meaning": "네 / 아니요",
+    "examples": ["はい、そうです。(네, 그렇습니다.)"],
+    "tags": ["basic"]
+  },
+  {
+    "id": "ichi",
+    "word": "一",
+    "reading": "いち",
+    "romaji": "ichi",
+    "partOfSpeech": "숫자",
+    "meaning": "1 (하나)",
+    "examples": ["一つください。(하나 주세요.)"],
+    "tags": ["number"]
+  },
+  {
+    "id": "ni",
+    "word": "二",
+    "reading": "に",
+    "romaji": "ni",
+    "partOfSpeech": "숫자",
+    "meaning": "2 (둘)",
+    "examples": ["二人です。(두 명입니다.)"],
+    "tags": ["number"]
+  },
+  {
+    "id": "mizu",
+    "word": "水",
+    "reading": "みず",
+    "romaji": "mizu",
+    "partOfSpeech": "명사",
+    "meaning": "물",
+    "examples": ["水をください。(물을 주세요.)"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "taberu",
+    "word": "食べる",
+    "reading": "たべる",
+    "romaji": "taberu",
+    "partOfSpeech": "동사",
+    "meaning": "먹다 (정중: 食べます)",
+    "examples": ["ごはんを食べます。(밥을 먹어요.)"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "gakusei",
+    "word": "学生",
+    "reading": "がくせい",
+    "romaji": "gakusei",
+    "partOfSpeech": "명사",
+    "meaning": "학생",
+    "examples": ["わたしは学生です。(저는 학생입니다.)"],
+    "tags": ["noun"]
+  }
+]

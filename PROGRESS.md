@@ -15,6 +15,8 @@ Build/status tracker so work can resume after a context loss. See `AGENTS.md` fo
 | 6. Deploy to Vercel | ⏳ pending | Needs the user to import the GitHub repo on vercel.com (one-time). Then auto-deploys on push. |
 | 7. Context docs | ✅ done | This file, `DEVLOG.md`, `AGENTS.md`, `docs/ARCHITECTURE.md`. |
 | 8. PWA | ✅ done | manifest + icons + offline SW + registration; verified installable & SW activated. |
+| 9. Deployed | ✅ done | Live at https://study-languages-six.vercel.app (Vercel CLI; protection off; framework=nextjs). |
+| 10. Multi-language (Japanese) | ✅ done | `/[lang]` routing (en/ja), `content/<lang>/`, Study Plan, TTS (Speak), `JAPANESE.md`, rebrand → "Study Languages". |
 
 ## Verified working (local, in-browser)
 - Dashboard streak card + "mark today studied" (persists to localStorage).
@@ -25,6 +27,6 @@ Build/status tracker so work can resume after a context loss. See `AGENTS.md` fo
 - Dark mode toggle.
 
 ## Next steps / backlog
-1. **Deploy**: import `jintak0401/study-languages` at vercel.com/new (zero config; production branch `main`).
-2. Keep adding content after each tutoring session (see `AGENTS.md`).
-3. Recommended later features (not built): spaced-repetition scheduling, dedicated paraphrasing trainer, audio/pronunciation.
+1. Keep adding content after each tutoring session — English via `AGENTS.md`, Japanese via `JAPANESE.md`.
+2. Redeploy after content changes: `npx vercel deploy --prod` (or set up GitHub auto-deploy — needs the Vercel GitHub App installed once).
+3. Recommended later: spaced-repetition scheduling, dedicated paraphrasing trainer, more Japanese content, kana drill mini-game.

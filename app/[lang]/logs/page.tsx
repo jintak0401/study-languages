@@ -6,11 +6,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import { NoResults } from "@/components/search-bar";
 import { getLogList } from "@/lib/content";
 import { formatNice } from "@/lib/date";
+import type { Lang } from "@/lib/types";
 
-export const metadata = { title: "Daily logs · Study English" };
-
-export default function LogsPage() {
-  const logs = getLogList();
+export default async function LogsPage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = (await params) as { lang: Lang };
+  const logs = getLogList(lang);
 
   return (
     <div>
@@ -23,7 +27,11 @@ export default function LogsPage() {
       ) : (
         <div className="grid gap-4">
           {logs.map((log) => (
-            <Link key={log.date} href={`/logs/${log.date}`} className="group">
+            <Link
+              key={log.date}
+              href={`/${lang}/logs/${log.date}`}
+              className="group"
+            >
               <Card className="transition-colors group-hover:border-primary/50">
                 <CardContent className="space-y-2 p-5">
                   <div className="flex items-center gap-2 text-sm font-medium text-primary">

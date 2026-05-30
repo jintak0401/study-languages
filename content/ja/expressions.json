@@ -1,0 +1,56 @@
+[
+  {
+    "id": "konnichiwa",
+    "text": "こんにちは。",
+    "reading": "こんにちは",
+    "romaji": "Konnichiwa.",
+    "ko": "안녕하세요. (낮 인사)",
+    "examples": ["こんにちは、はじめまして。(안녕하세요, 처음 뵙겠습니다.)"],
+    "paraphrases": [
+      "おはようございます。(아침 인사)",
+      "こんばんは。(저녁 인사)",
+      "やあ！(친한 사이의 가벼운 인사)"
+    ],
+    "tags": ["greeting"]
+  },
+  {
+    "id": "arigatou-gozaimasu",
+    "text": "ありがとうございます。",
+    "reading": "ありがとうございます",
+    "romaji": "Arigatou gozaimasu.",
+    "ko": "감사합니다.",
+    "examples": ["たすけてくれてありがとうございます。(도와주셔서 감사합니다.)"],
+    "paraphrases": [
+      "ありがとう。(반말: 고마워)",
+      "どうもありがとうございます。(정말 감사합니다)",
+      "かんしゃします。(감사드립니다 — 격식)"
+    ],
+    "tags": ["greeting", "polite"]
+  },
+  {
+    "id": "watashi-wa-desu",
+    "text": "わたしは ジンタク です。",
+    "reading": "わたしは ジンタク です",
+    "romaji": "Watashi wa Jintaku desu.",
+    "ko": "저는 진탁입니다.",
+    "examples": ["わたしは かんこくじん です。(저는 한국인입니다.)"],
+    "paraphrases": [
+      "ジンタクと もうします。(진탁이라고 합니다 — 정중)",
+      "ぼくは ジンタク です。(남성 반말 느낌의 ぼく)"
+    ],
+    "tags": ["self-intro"]
+  },
+  {
+    "id": "sumimasen",
+    "text": "すみません。",
+    "reading": "すみません",
+    "romaji": "Sumimasen.",
+    "ko": "실례합니다 / 죄송합니다.",
+    "examples": ["すみません、これは いくらですか？(실례합니다, 이거 얼마예요?)"],
+    "paraphrases": [
+      "ごめんなさい。(미안합니다 — 사과)",
+      "しつれいします。(실례하겠습니다 — 격식)"
+    ],
+    "tags": ["polite"]
+  }
+]

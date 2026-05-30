@@ -7,8 +7,15 @@ import type { GrammarPoint } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { NoResults, SearchBar } from "@/components/search-bar";
+import { SpeakButton } from "@/components/speak-button";
 
-export function GrammarView({ items }: { items: GrammarPoint[] }) {
+export function GrammarView({
+  items,
+  ttsLang,
+}: {
+  items: GrammarPoint[];
+  ttsLang: string;
+}) {
   const [q, setQ] = useState("");
 
   const filtered = useMemo(() => {
@@ -46,6 +53,7 @@ export function GrammarView({ items }: { items: GrammarPoint[] }) {
                   <p className="flex items-start gap-2 text-sm">
                     <Check className="mt-0.5 size-4 shrink-0 text-success" />
                     <span className="font-medium">{it.right}</span>
+                    <SpeakButton text={it.right} lang={ttsLang} />
                   </p>
                 </div>
                 {it.examples.length > 0 && (

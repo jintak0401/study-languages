@@ -1,8 +1,32 @@
-/** Shared content types. All content lives as files under `content/` (git-synced). */
+/** Shared content types. Content lives as files under `content/<lang>/` (git-synced). */
+
+export type Lang = "en" | "ja";
+
+export interface LangMeta {
+  /** Short label for toggles. */
+  label: string;
+  /** BCP-47 tag used for the Web Speech API. */
+  ttsLang: string;
+}
+
+export const LANGS: Record<Lang, LangMeta> = {
+  en: { label: "EN", ttsLang: "en-US" },
+  ja: { label: "日本語", ttsLang: "ja-JP" },
+};
+
+export function isLang(value: string): value is Lang {
+  return value === "en" || value === "ja";
+}
 
 export interface Expression {
   id: string;
-  en: string;
+  /** The phrase in the target language. */
+  text: string;
+  /** Kana / pronunciation guide (Japanese). */
+  reading?: string;
+  /** Romanization (Japanese). */
+  romaji?: string;
+  /** Meaning in the learner's language (Korean). */
   ko: string;
   examples: string[];
   /** Different ways to say the same thing. */
@@ -13,7 +37,6 @@ export interface Expression {
 export interface GrammarPoint {
   id: string;
   title: string;
-  /** The rule, in one short line. */
   rule: string;
   wrong: string;
   right: string;
@@ -24,6 +47,10 @@ export interface GrammarPoint {
 export interface VocabularyItem {
   id: string;
   word: string;
+  /** Kana reading (Japanese). */
+  reading?: string;
+  /** Romanization (Japanese). */
+  romaji?: string;
   partOfSpeech: string;
   meaning: string;
   examples: string[];
@@ -32,25 +59,40 @@ export interface VocabularyItem {
 
 export interface Mistake {
   id: string;
-  /** Short label for the kind of mistake. */
   type: string;
   wrong: string;
   right: string;
   reason: string;
-  /** How many times this mistake has been made. */
   count: number;
-  firstSeen: string; // YYYY-MM-DD
-  lastSeen: string; // YYYY-MM-DD
+  firstSeen: string;
+  lastSeen: string;
 }
 
 export interface DailyLogMeta {
-  /** YYYY-MM-DD; also the markdown filename stem under content/logs. */
   date: string;
   title: string;
   summary: string;
 }
 
 export interface DailyLog extends DailyLogMeta {
-  /** Raw markdown body. */
   body: string;
+}
+
+export interface PlanStep {
+  id: string;
+  title: string;
+  detail: string;
+}
+
+export interface PlanStage {
+  id: string;
+  title: string;
+  goal: string;
+  steps: PlanStep[];
+}
+
+export interface StudyPlan {
+  title: string;
+  intro: string;
+  stages: PlanStage[];
 }
