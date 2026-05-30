@@ -1,82 +1,142 @@
 [
   {
-    "id": "konnichiwa",
-    "word": "こんにちは",
-    "reading": "こんにちは",
-    "romaji": "konnichiwa",
-    "partOfSpeech": "인사",
-    "meaning": "안녕하세요 (낮 인사)",
-    "examples": ["こんにちは！(안녕하세요!)"],
-    "tags": ["greeting"]
-  },
-  {
-    "id": "arigatou",
-    "word": "ありがとう",
-    "reading": "ありがとう",
-    "romaji": "arigatou",
-    "partOfSpeech": "인사",
-    "meaning": "고마워 (정중: ありがとうございます)",
-    "examples": ["ありがとうございます。(감사합니다.)"],
-    "tags": ["greeting"]
-  },
-  {
-    "id": "hai-iie",
-    "word": "はい / いいえ",
-    "reading": "はい / いいえ",
-    "romaji": "hai / iie",
-    "partOfSpeech": "표현",
-    "meaning": "네 / 아니요",
-    "examples": ["はい、そうです。(네, 그렇습니다.)"],
-    "tags": ["basic"]
-  },
-  {
-    "id": "ichi",
-    "word": "一",
-    "reading": "いち",
-    "romaji": "ichi",
-    "partOfSpeech": "숫자",
-    "meaning": "1 (하나)",
-    "examples": ["一つください。(하나 주세요.)"],
-    "tags": ["number"]
-  },
-  {
-    "id": "ni",
-    "word": "二",
-    "reading": "に",
-    "romaji": "ni",
-    "partOfSpeech": "숫자",
-    "meaning": "2 (둘)",
-    "examples": ["二人です。(두 명입니다.)"],
-    "tags": ["number"]
-  },
-  {
-    "id": "mizu",
-    "word": "水",
-    "reading": "みず",
-    "romaji": "mizu",
-    "partOfSpeech": "명사",
-    "meaning": "물",
-    "examples": ["水をください。(물을 주세요.)"],
-    "tags": ["noun"]
-  },
-  {
     "id": "taberu",
     "word": "食べる",
     "reading": "たべる",
     "romaji": "taberu",
-    "partOfSpeech": "동사",
-    "meaning": "먹다 (정중: 食べます)",
-    "examples": ["ごはんを食べます。(밥을 먹어요.)"],
-    "tags": ["verb"]
+    "partOfSpeech": "동사 · 2그룹",
+    "meaning": "먹다 (정중: 食べます / 과거: 食べた)",
+    "examples": ["毎朝パンを食べる。 (매일 아침 빵을 먹는다.)", "昨日ラーメンを食べました。 (어제 라멘을 먹었습니다.)"],
+    "tags": ["동사", "2그룹", "lesson-1"]
   },
   {
-    "id": "gakusei",
-    "word": "学生",
-    "reading": "がくせい",
-    "romaji": "gakusei",
+    "id": "miru",
+    "word": "見る",
+    "reading": "みる",
+    "romaji": "miru",
+    "partOfSpeech": "동사 · 2그룹",
+    "meaning": "보다 (과거: 見た)",
+    "examples": ["テレビを見る。 (TV를 본다.)", "映画を見た。 (영화를 봤다.)"],
+    "tags": ["동사", "2그룹", "lesson-1"]
+  },
+  {
+    "id": "okiru",
+    "word": "起きる",
+    "reading": "おきる",
+    "romaji": "okiru",
+    "partOfSpeech": "동사 · 2그룹",
+    "meaning": "일어나다 (과거: 起きた)",
+    "examples": ["7時に起きる。 (7시에 일어난다.)", "今日は早く起きた。 (오늘은 일찍 일어났다.)"],
+    "tags": ["동사", "2그룹", "lesson-1"]
+  },
+  {
+    "id": "nomu",
+    "word": "飲む",
+    "reading": "のむ",
+    "romaji": "nomu",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "마시다 (과거: 飲んだ)",
+    "examples": ["コーヒーを飲む。 (커피를 마신다.)", "水を飲んだ。 (물을 마셨다.)"],
+    "tags": ["동사", "1그룹", "lesson-1"]
+  },
+  {
+    "id": "yomu",
+    "word": "読む",
+    "reading": "よむ",
+    "romaji": "yomu",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "읽다 (과거: 読んだ)",
+    "examples": ["本を読む。 (책을 읽는다.)", "新聞を読みました。 (신문을 읽었습니다.)"],
+    "tags": ["동사", "1그룹", "lesson-1"]
+  },
+  {
+    "id": "iku",
+    "word": "行く",
+    "reading": "いく",
+    "romaji": "iku",
+    "partOfSpeech": "동사 · 1그룹 (た·て 예외)",
+    "meaning": "가다 (과거: 行った — く인데 예외)",
+    "examples": ["学校に行く。 (학교에 간다.)", "日本に行った。 (일본에 갔다.)"],
+    "tags": ["동사", "1그룹", "예외", "lesson-1"]
+  },
+  {
+    "id": "hanasu",
+    "word": "話す",
+    "reading": "はなす",
+    "romaji": "hanasu",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "말하다 (과거: 話した)",
+    "examples": ["日本語を話す。 (일본어를 말한다.)", "友達と話した。 (친구와 이야기했다.)"],
+    "tags": ["동사", "1그룹", "lesson-1"]
+  },
+  {
+    "id": "kau",
+    "word": "買う",
+    "reading": "かう",
+    "romaji": "kau",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "사다 (과거: 買った)",
+    "examples": ["パンを買う。 (빵을 산다.)", "本を買った。 (책을 샀다.)"],
+    "tags": ["동사", "1그룹", "lesson-1"]
+  },
+  {
+    "id": "matsu",
+    "word": "待つ",
+    "reading": "まつ",
+    "romaji": "matsu",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "기다리다 (과거: 待った)",
+    "examples": ["友達を待つ。 (친구를 기다린다.)", "ちょっと待って。 (잠깐 기다려.)"],
+    "tags": ["동사", "1그룹", "lesson-1"]
+  },
+  {
+    "id": "kaeru",
+    "word": "帰る",
+    "reading": "かえる",
+    "romaji": "kaeru",
+    "partOfSpeech": "동사 · 1그룹 (2그룹처럼 보이는 함정!)",
+    "meaning": "돌아가다·돌아오다 (과거: 帰った)",
+    "examples": ["家に帰る。 (집에 간다.)", "早く帰った。 (일찍 돌아갔다.)"],
+    "tags": ["동사", "1그룹", "함정", "lesson-1"]
+  },
+  {
+    "id": "suru",
+    "word": "する",
+    "reading": "する",
+    "romaji": "suru",
+    "partOfSpeech": "동사 · 불규칙",
+    "meaning": "하다 (과거: した)",
+    "examples": ["勉強する。 (공부한다.)", "昨日勉強した。 (어제 공부했다.)"],
+    "tags": ["동사", "불규칙", "lesson-1"]
+  },
+  {
+    "id": "kuru",
+    "word": "来る",
+    "reading": "くる",
+    "romaji": "kuru",
+    "partOfSpeech": "동사 · 불규칙",
+    "meaning": "오다 (과거: 来た kita)",
+    "examples": ["友達が来る。 (친구가 온다.)", "友達が来た。 (친구가 왔다.)"],
+    "tags": ["동사", "불규칙", "lesson-1"]
+  },
+  {
+    "id": "tomodachi",
+    "word": "友達",
+    "reading": "ともだち",
+    "romaji": "tomodachi",
     "partOfSpeech": "명사",
-    "meaning": "학생",
-    "examples": ["わたしは学生です。(저는 학생입니다.)"],
-    "tags": ["noun"]
+    "meaning": "친구",
+    "examples": ["友達とラーメンを食べた。 (친구와 라멘을 먹었다.)"],
+    "tags": ["명사", "사람", "lesson-1"]
+  },
+  {
+    "id": "kinou",
+    "word": "昨日",
+    "reading": "きのう",
+    "romaji": "kinou",
+    "partOfSpeech": "명사 · 시간",
+    "meaning": "어제",
+    "examples": ["昨日、映画を見ました。 (어제 영화를 봤습니다.)"],
+    "tags": ["명사", "시간", "lesson-1"]
   }
 ]

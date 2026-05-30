@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "ja-wa-ha-particle",
+    "type": "조사 표기",
+    "wrong": "私わ ラーメンを…",
+    "right": "私は ラーメンを…",
+    "reason": "주제 조사 は는 발음이 'wa'여도 글자는 항상 は로 쓴다. わ로 쓰지 않기.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "ja-ramen-katakana",
+    "type": "가타카나 · 장음",
+    "wrong": "らめん",
+    "right": "ラーメン",
+    "reason": "외래어·많은 음식 이름은 가타카나로 쓰고, ラーメン은 장음 ー가 들어간다.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "ja-tabeta-not-mashita",
+    "type": "동사 · 과거",
+    "wrong": "増した (mashita — 늘었다)",
+    "right": "食べました (tabemashita — 먹었습니다)",
+    "reason": "'먹었다'는 食べる의 과거 → 食べました. 増す(masu)는 '늘다'라는 다른 동사.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "ja-temasu-vs-keigo",
+    "type": "경어 vs 진행형",
+    "wrong": "見てます (見る의 경어로 착각)",
+    "right": "拝見します (겸양) / ご覧になります (존경)",
+    "reason": "〜てます·〜ています는 '~하고 있다'(진행/상태)이지 경어가 아니다. 見る의 경어는 拝見する(겸양)·ご覧になる(존경).",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  }
+]
