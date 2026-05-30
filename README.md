@@ -9,9 +9,9 @@ Next.js 16 · React 19 · TypeScript · Tailwind CSS v4 · Zustand v5 · next-th
 
 ## Develop
 ```bash
-node_modules/.bin/next dev     # → http://localhost:3000
+pnpm dev     # → http://localhost:3000
 ```
-> pnpm needs Node ≥ 22.13. With that, `pnpm dev` / `pnpm build` work normally. Otherwise run the local `next` binary directly (see `AGENTS.md`).
+> Uses Node 24 LTS (set via fnm). `pnpm build` / `pnpm lint` also work.
 
 ## Docs
 - `AGENTS.md` — how the project works + how to add content

@@ -6,15 +6,23 @@ import type { VocabularyItem } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { NoResults, SearchBar } from "@/components/search-bar";
+import { SpeakButton } from "@/components/speak-button";
 
-export function VocabularyView({ items }: { items: VocabularyItem[] }) {
+export function VocabularyView({
+  items,
+  ttsLang,
+}: {
+  items: VocabularyItem[];
+  ttsLang: string;
+}) {
   const [q, setQ] = useState("");
 
   const filtered = useMemo(() => {
     const term = q.trim().toLowerCase();
     if (!term) return items;
     return items.filter((it) =>
-      [it.word, it.meaning, it.partOfSpeech, ...it.tags]
+      [it.word, it.meaning, it.reading, it.romaji, it.partOfSpeech, ...it.tags]
+        .filter(Boolean)
         .join(" ")
         .toLowerCase()
         .includes(term),
@@ -32,9 +40,19 @@ export function VocabularyView({ items }: { items: VocabularyItem[] }) {
             <Card key={it.id}>
               <CardHeader>
                 <div className="flex items-center justify-between gap-2">
-                  <CardTitle className="text-base">{it.word}</CardTitle>
+                  <div className="flex items-center gap-2">
+                    <CardTitle className="text-base">{it.word}</CardTitle>
+                    <SpeakButton text={it.reading ?? it.word} lang={ttsLang} />
+                  </div>
                   <Badge variant="outline">{it.partOfSpeech}</Badge>
                 </div>
+                {(it.reading || it.romaji) && (
+                  <p className="text-sm text-muted-foreground">
+                    {it.reading}
+                    {it.reading && it.romaji ? " · " : ""}
+                    {it.romaji ? <span className="italic">{it.romaji}</span> : null}
+                  </p>
+                )}
                 <p className="text-sm text-muted-foreground">{it.meaning}</p>
               </CardHeader>
               <CardContent className="space-y-2">

@@ -2,53 +2,82 @@ import "server-only";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 
-import expressionsData from "@/content/expressions.json";
-import grammarData from "@/content/grammar.json";
-import vocabularyData from "@/content/vocabulary.json";
-import mistakesData from "@/content/mistakes.json";
-import logsIndex from "@/content/logs/index.json";
+import enExpressions from "@/content/en/expressions.json";
+import enGrammar from "@/content/en/grammar.json";
+import enVocabulary from "@/content/en/vocabulary.json";
+import enMistakes from "@/content/en/mistakes.json";
+import enPlan from "@/content/en/plan.json";
+import enLogsIndex from "@/content/en/logs/index.json";
+
+import jaExpressions from "@/content/ja/expressions.json";
+import jaGrammar from "@/content/ja/grammar.json";
+import jaVocabulary from "@/content/ja/vocabulary.json";
+import jaMistakes from "@/content/ja/mistakes.json";
+import jaPlan from "@/content/ja/plan.json";
+import jaLogsIndex from "@/content/ja/logs/index.json";
 
 import type {
   DailyLog,
   DailyLogMeta,
   Expression,
   GrammarPoint,
+  Lang,
   Mistake,
+  StudyPlan,
   VocabularyItem,
 } from "./types";
 
-const LOGS_DIR = path.join(process.cwd(), "content", "logs");
+const expressions = { en: enExpressions, ja: jaExpressions } as Record<
+  Lang,
+  Expression[]
+>;
+const grammar = { en: enGrammar, ja: jaGrammar } as Record<Lang, GrammarPoint[]>;
+const vocabulary = { en: enVocabulary, ja: jaVocabulary } as Record<
+  Lang,
+  VocabularyItem[]
+>;
+const mistakes = { en: enMistakes, ja: jaMistakes } as Record<Lang, Mistake[]>;
+const plans = { en: enPlan, ja: jaPlan } as Record<Lang, StudyPlan>;
+const logsIndex = { en: enLogsIndex, ja: jaLogsIndex } as Record<
+  Lang,
+  DailyLogMeta[]
+>;
 
-export function getExpressions(): Expression[] {
-  return expressionsData as Expression[];
+export function getExpressions(lang: Lang): Expression[] {
+  return expressions[lang];
 }
 
-export function getGrammar(): GrammarPoint[] {
-  return grammarData as GrammarPoint[];
+export function getGrammar(lang: Lang): GrammarPoint[] {
+  return grammar[lang];
 }
 
-export function getVocabulary(): VocabularyItem[] {
-  return vocabularyData as VocabularyItem[];
+export function getVocabulary(lang: Lang): VocabularyItem[] {
+  return vocabulary[lang];
 }
 
 /** Mistakes, most-repeated first. */
-export function getMistakes(): Mistake[] {
-  return [...(mistakesData as Mistake[])].sort((a, b) => b.count - a.count);
+export function getMistakes(lang: Lang): Mistake[] {
+  return [...mistakes[lang]].sort((a, b) => b.count - a.count);
+}
+
+export function getPlan(lang: Lang): StudyPlan {
+  return plans[lang];
 }
 
 /** Daily log metadata, newest first. */
-export function getLogList(): DailyLogMeta[] {
-  return [...(logsIndex as DailyLogMeta[])].sort((a, b) =>
-    b.date.localeCompare(a.date),
-  );
+export function getLogList(lang: Lang): DailyLogMeta[] {
+  return [...logsIndex[lang]].sort((a, b) => b.date.localeCompare(a.date));
 }
 
 /** Read one day's markdown body. Returns null if the file is missing. */
-export async function getLog(date: string): Promise<DailyLog | null> {
-  const meta = (logsIndex as DailyLogMeta[]).find((l) => l.date === date);
+export async function getLog(lang: Lang, date: string): Promise<DailyLog | null> {
+  const meta = logsIndex[lang].find((l) => l.date === date);
   if (!meta) return null;
   try {
-    const body = await fs.readFile(path.join(LOGS_DIR, `${date}.md`), "utf8");
+    const body = await fs.readFile(
+      path.join(process.cwd(), "content", lang, "logs", `${date}.md`),
+      "utf8",
+    );
     return { ...meta, body };
   } catch {
     return null;
@@ -56,12 +85,13 @@ export async function getLog(date: string): Promise<DailyLog | null> {
 }
 
 /** Quick counts for the dashboard. */
-export function getContentStats() {
+export function getContentStats(lang: Lang) {
   return {
-    expressions: getExpressions().length,
-    grammar: getGrammar().length,
-    vocabulary: getVocabulary().length,
-    mistakes: (mistakesData as Mistake[]).length,
-    logs: (logsIndex as DailyLogMeta[]).length,
+    expressions: expressions[lang].length,
+    grammar: grammar[lang].length,
+    vocabulary: vocabulary[lang].length,
+    mistakes: mistakes[lang].length,
+    logs: logsIndex[lang].length,
+    planStages: plans[lang].stages.length,
   };
 }

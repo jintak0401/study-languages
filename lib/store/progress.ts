@@ -5,14 +5,17 @@ import { useEffect, useState } from "react";
 import { todayKey } from "@/lib/date";
 
 interface ProgressState {
-  /** Local dates (YYYY-MM-DD) the user marked as studied. */
+  /** Local dates (YYYY-MM-DD) the user marked as studied (shared across languages). */
   studiedDates: string[];
   /** Flashcard ids the user marked as "known". */
   knownCards: string[];
+  /** Completed study-plan step ids, namespaced by language (e.g. "ja:s1-1"). */
+  completedPlanSteps: string[];
   toggleStudied: (date: string) => void;
   markStudiedToday: () => void;
   toggleCardKnown: (id: string) => void;
   resetKnownCards: () => void;
+  togglePlanStep: (id: string) => void;
 }
 
 export const useProgressStore = create<ProgressState>()(
@@ -20,6 +23,7 @@ export const useProgressStore = create<ProgressState>()(
     (set) => ({
       studiedDates: [],
       knownCards: [],
+      completedPlanSteps: [],
       toggleStudied: (date) =>
         set((s) => ({
           studiedDates: s.studiedDates.includes(date)
@@ -40,6 +44,12 @@ export const useProgressStore = create<ProgressState>()(
             : [...s.knownCards, id],
         })),
       resetKnownCards: () => set({ knownCards: [] }),
+      togglePlanStep: (id) =>
+        set((s) => ({
+          completedPlanSteps: s.completedPlanSteps.includes(id)
+            ? s.completedPlanSteps.filter((x) => x !== id)
+            : [...s.completedPlanSteps, id],
+        })),
     }),
     { name: "study-english-progress" },
   ),
