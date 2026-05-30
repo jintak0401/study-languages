@@ -1,0 +1,48 @@
+[
+  {
+    "id": "talk-with-people",
+    "en": "I want to talk with people from other countries.",
+    "ko": "다른 나라 사람들과 이야기하고 싶어요.",
+    "examples": [
+      "I want to talk with people from other countries.",
+      "I'd love to chat with people from all over the world."
+    ],
+    "paraphrases": [
+      "I'd love to chat with people from all over the world.",
+      "My goal is to communicate easily with people from different countries.",
+      "I really want to be able to hold a conversation with foreigners.",
+      "I aspire to communicate fluently with people from various cultures."
+    ],
+    "tags": ["conversation", "goal"]
+  },
+  {
+    "id": "the-essence-of",
+    "en": "The essence of studying a language is talking with people.",
+    "ko": "언어를 공부하는 것의 본질은 사람들과 대화하는 것이다.",
+    "examples": [
+      "The essence of studying a language is talking with people.",
+      "The whole point of learning English is to communicate."
+    ],
+    "paraphrases": [
+      "The whole point of learning a language is talking with people.",
+      "At its core, language learning is about communication.",
+      "The heart of studying a language is real conversation."
+    ],
+    "tags": ["learning", "opinion"]
+  },
+  {
+    "id": "spend-time-studying",
+    "en": "I can spend 30 minutes a day studying English.",
+    "ko": "하루에 30분 영어 공부에 쓸 수 있어요.",
+    "examples": [
+      "I can spend 30 minutes a day studying English.",
+      "I set aside half an hour every evening to study."
+    ],
+    "paraphrases": [
+      "I can set aside 30 minutes a day for English.",
+      "I'm able to put in half an hour of study each day.",
+      "I can dedicate 30 minutes daily to learning English."
+    ],
+    "tags": ["routine", "time"]
+  }
+]

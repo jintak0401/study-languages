@@ -1,0 +1,132 @@
+[
+  {
+    "id": "talk-people",
+    "type": "Missing preposition (talk)",
+    "wrong": "talk that country's people",
+    "right": "talk with / to the people of that country",
+    "reason": "Use 'talk with' or 'talk to' before a person. You cannot 'talk someone' directly.",
+    "count": 2,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "possessive-country",
+    "type": "Possessive country",
+    "wrong": "other country's people",
+    "right": "people from other countries",
+    "reason": "Prefer 'people from + country' over the possessive form. It sounds far more natural.",
+    "count": 2,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "want-to-verb",
+    "type": "want + person + to + verb",
+    "wrong": "I want you build it",
+    "right": "I want you to build it",
+    "reason": "Pattern: want + someone + TO + verb. The 'to' is required.",
+    "count": 3,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "everything",
+    "type": "all things → everything",
+    "wrong": "I think all things",
+    "right": "everything / all of them",
+    "reason": "Native speakers say 'everything' or 'all of them', not 'all things'.",
+    "count": 2,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "make-mistake",
+    "type": "make vs do",
+    "wrong": "do a mistake",
+    "right": "make a mistake",
+    "reason": "We 'make' mistakes, never 'do' them.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "every-singular",
+    "type": "every + singular noun",
+    "wrong": "every mistakes",
+    "right": "every mistake",
+    "reason": "'every' is always followed by a singular noun.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "spend-time",
+    "type": "spend vs invest (time)",
+    "wrong": "invest 30 minutes per day",
+    "right": "spend 30 minutes per day",
+    "reason": "Use 'spend' for time. 'Invest' is mainly for money or effort.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "teach-object",
+    "type": "teach + person",
+    "wrong": "can you teach paraphrasing",
+    "right": "can you teach me paraphrasing",
+    "reason": "'teach' needs a person: teach someone something.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "missing-article",
+    "type": "missing article (a/an)",
+    "wrong": "use state management library",
+    "right": "use a state management library",
+    "reason": "Singular countable nouns need an article (a / an / the).",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "in-on-format",
+    "type": "preposition (in / on)",
+    "wrong": "write on Markdown / study at website",
+    "right": "write in Markdown / study on the website",
+    "reason": "Write 'in' a language or format; do things 'on' a website.",
+    "count": 2,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "spelling-people",
+    "type": "spelling",
+    "wrong": "poeple",
+    "right": "people",
+    "reason": "Spelling: p-e-o-p-l-e.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "capitalize-languages",
+    "type": "capitalize languages & countries",
+    "wrong": "english / japanese",
+    "right": "English / Japanese",
+    "reason": "Names of languages, countries, and nationalities are always capitalized.",
+    "count": 2,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "a-vs-an",
+    "type": "a vs an",
+    "wrong": "build a app",
+    "right": "build an app",
+    "reason": "Use 'an' before a vowel sound (an app, an hour); 'a' before a consonant sound.",
+    "count": 1,
+    "firstSeen": "2026-05-30",
+    "lastSeen": "2026-05-30"
+  }
+]
