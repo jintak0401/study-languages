@@ -8,6 +8,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { NoResults, SearchBar } from "@/components/search-bar";
 import { SpeakButton } from "@/components/speak-button";
 
+/** Text to read aloud: drop any parenthetical gloss (e.g. Korean meaning) so
+ *  the voice reads only the target-language sentence. English examples (no
+ *  parentheses) are unchanged. */
+function speakable(example: string): string {
+  return example.replace(/[（(][^）)]*[）)]/g, "").trim() || example;
+}
+
 export function VocabularyView({
   items,
   ttsLang,
@@ -56,9 +63,16 @@ export function VocabularyView({
                 <p className="text-sm text-muted-foreground">{it.meaning}</p>
               </CardHeader>
               <CardContent className="space-y-2">
-                <ul className="list-disc space-y-1 pl-5 text-sm">
+                <ul className="space-y-1.5 text-sm">
                   {it.examples.map((ex) => (
-                    <li key={ex}>{ex}</li>
+                    <li key={ex} className="flex items-start gap-1.5">
+                      <SpeakButton
+                        text={speakable(ex)}
+                        lang={ttsLang}
+                        className="-ml-1 mt-px size-6 shrink-0"
+                      />
+                      <span>{ex}</span>
+                    </li>
                   ))}
                 </ul>
               </CardContent>
