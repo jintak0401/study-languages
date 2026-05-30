@@ -14,6 +14,7 @@ Build/status tracker so work can resume after a context loss. See `AGENTS.md` fo
 | 5. Polish | ✅ done | search, empty states, mobile verified in browser; `next build` clean, no console errors. |
 | 6. Deploy to Vercel | ⏳ pending | Needs the user to import the GitHub repo on vercel.com (one-time). Then auto-deploys on push. |
 | 7. Context docs | ✅ done | This file, `DEVLOG.md`, `AGENTS.md`, `docs/ARCHITECTURE.md`. |
+| 8. PWA | ✅ done | manifest + icons + offline SW + registration; verified installable & SW activated. |
 
 ## Verified working (local, in-browser)
 - Dashboard streak card + "mark today studied" (persists to localStorage).
@@ -24,6 +25,6 @@ Build/status tracker so work can resume after a context loss. See `AGENTS.md` fo
 - Dark mode toggle.
 
 ## Next steps / backlog
-1. **Deploy**: import `jintak0401/study-english` at vercel.com/new (zero config).
+1. **Deploy**: import `jintak0401/study-languages` at vercel.com/new (zero config; production branch `main`).
 2. Keep adding content after each tutoring session (see `AGENTS.md`).
 3. Recommended later features (not built): spaced-repetition scheduling, dedicated paraphrasing trainer, audio/pronunciation.

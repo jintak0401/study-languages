@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Sparkles } from "lucide-react";
@@ -7,6 +7,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MobileNav, SidebarNav } from "@/components/app-nav";
+import { PwaRegister } from "@/components/pwa-register";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({
@@ -17,6 +18,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Study English",
   description: "A personal space to study English — anywhere, anytime.",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Study EN",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#6366f1",
 };
 
 function Brand() {
@@ -40,6 +50,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">
+        <PwaRegister />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

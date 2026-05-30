@@ -13,7 +13,7 @@ A personal website for **gambit@channel.io** (a Korean speaker) to study English
 ## What this is
 - A Next.js site that shows the user's **expressions, grammar, vocabulary, mistakes, and a daily study log**, plus **progress/streaks** and **practice** (flashcards + quiz).
 - **Content is git-synced**: it lives as files under `content/`. Editing a file and pushing to GitHub updates the live site. No database, no login.
-- Personal use, **public** repo: `jintak0401/study-english`.
+- Personal use, **public** repo: `jintak0401/study-languages` (default branch `main`). Named for possible future expansion to other languages (e.g. Japanese), though only English is built today.
 
 ## The tutoring + content loop (important)
 Claude tutors the user in chat AND keeps this site updated. After a study session:
@@ -46,5 +46,8 @@ node_modules/.bin/next lint     # lint
 ```
 With Node ≥ 22.13 you can use `pnpm dev` / `pnpm build` as normal.
 
+## PWA
+The app is an installable PWA: `app/manifest.ts` (webmanifest), icons in `public/` + `app/`, offline service worker at `public/sw.js`, registered by `components/pwa-register.tsx`. To bust the SW cache after a change, bump `CACHE` in `public/sw.js`.
+
 ## Deploy (Vercel)
-The repo is public on GitHub. Deploy by importing it at vercel.com/new (zero config — Next.js is auto-detected). After that, **every `git push` auto-deploys**, which matches the git-sync content model. See `PROGRESS.md` for current deploy status.
+The repo is public on GitHub (`jintak0401/study-languages`, branch `main`). Deploy by importing it at vercel.com/new (zero config — Next.js is auto-detected). After that, **every `git push` to `main` auto-deploys**, which matches the git-sync content model. See `PROGRESS.md` for current deploy status.
