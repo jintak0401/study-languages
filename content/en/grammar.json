@@ -131,5 +131,23 @@
       "fluency"
     ],
     "date": "2026-06-01"
+  },
+  {
+    "id": "self-correction",
+    "title": "Self-correction: Actually… / What I meant was…",
+    "rule": "When you say something wrong or unclear, correct yourself naturally: 'Actually,', 'What I meant was...', 'Let me rephrase that...', or 'I mean...'. Don't stop — keeping the flow matters more than perfection.",
+    "wrong": "I think English is... [long silence, give up]",
+    "right": "I think English is — actually, what I meant is I find it challenging but enjoyable.",
+    "examples": [
+      "Wait, let me rephrase that — I mean I enjoy grammar, not that I'm already good at it.",
+      "She is — I mean, she was — my teacher last year.",
+      "I've studied English for... actually, it's been about five years."
+    ],
+    "tags": [
+      "conversation",
+      "fluency",
+      "mistakes"
+    ],
+    "date": "2026-06-01"
   }
 ]

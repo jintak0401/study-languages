@@ -216,5 +216,80 @@
       "phrase"
     ],
     "date": "2026-06-01"
+  },
+  {
+    "id": "clarify",
+    "word": "clarify",
+    "partOfSpeech": "verb",
+    "meaning": "명확히 하다 — to make something clearer or easier to understand",
+    "examples": [
+      "Could you clarify what you mean?",
+      "Let me clarify my point — I wasn't being clear."
+    ],
+    "tags": [
+      "conversation",
+      "communication"
+    ],
+    "date": "2026-06-01"
+  },
+  {
+    "id": "rephrase",
+    "word": "rephrase",
+    "partOfSpeech": "verb",
+    "meaning": "다시 표현하다 — to say the same thing in different or clearer words",
+    "examples": [
+      "Let me rephrase that — I wasn't very clear.",
+      "Can you rephrase your question?"
+    ],
+    "tags": [
+      "conversation",
+      "fluency"
+    ],
+    "date": "2026-06-01"
+  },
+  {
+    "id": "hesitate",
+    "word": "hesitate",
+    "partOfSpeech": "verb",
+    "meaning": "망설이다, 주저하다 — to pause before doing or saying something",
+    "examples": [
+      "Don't hesitate to ask if you have a question.",
+      "I hesitated before speaking because I wasn't sure of the word."
+    ],
+    "tags": [
+      "feelings",
+      "communication"
+    ],
+    "date": "2026-06-01"
+  },
+  {
+    "id": "stumble",
+    "word": "stumble (over words)",
+    "partOfSpeech": "verb",
+    "meaning": "말이 막히다, 더듬다 — to have difficulty speaking smoothly",
+    "examples": [
+      "I always stumble over long words.",
+      "It's okay to stumble — just keep going."
+    ],
+    "tags": [
+      "fluency",
+      "speaking"
+    ],
+    "date": "2026-06-01"
+  },
+  {
+    "id": "natural",
+    "word": "natural",
+    "partOfSpeech": "adjective",
+    "meaning": "자연스러운 — easy, relaxed, not forced or stiff",
+    "examples": [
+      "Self-correction is a natural part of conversation.",
+      "Her English sounds very natural."
+    ],
+    "tags": [
+      "fluency",
+      "adjective"
+    ],
+    "date": "2026-06-01"
   }
 ]

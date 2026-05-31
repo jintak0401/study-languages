@@ -168,5 +168,55 @@
       "I tend forget vocabulary if I don't review it.",
       "I tend to forget vocabularies if I don't review it."
     ]
+  },
+  {
+    "id": "what-i-meant-was",
+    "text": "What I meant was, I find it difficult, not impossible.",
+    "ko": "제 말은, 어렵다는 거지 불가능하다는 게 아니에요.",
+    "examples": [
+      "What I meant was, I find it difficult, not impossible.",
+      "What I was trying to say was it's challenging, but not out of reach."
+    ],
+    "paraphrases": [
+      "What I was trying to say was it's tough, not hopeless.",
+      "Let me clarify — I meant hard, not impossible.",
+      "To put it differently, it's challenging but definitely doable."
+    ],
+    "tags": [
+      "conversation",
+      "fluency",
+      "self-correction"
+    ],
+    "date": "2026-06-01",
+    "distractors": [
+      "What I meant were, I find it difficult, not impossible.",
+      "What I was meant, I find it difficult, not impossible.",
+      "What I meant was, I find it difficulty, not impossible."
+    ]
+  },
+  {
+    "id": "let-me-rephrase",
+    "text": "Let me rephrase that — I think mistakes help us grow.",
+    "ko": "다시 말하면 — 실수가 우리를 성장하게 한다고 생각해요.",
+    "examples": [
+      "Let me rephrase that — I think mistakes help us grow.",
+      "Actually, let me say it differently: errors are how we learn."
+    ],
+    "paraphrases": [
+      "To put it another way, errors are part of learning.",
+      "What I mean is, mistakes are valuable, not something to fear.",
+      "Actually, let me say it differently — stumbling is how we improve."
+    ],
+    "tags": [
+      "conversation",
+      "fluency",
+      "self-correction"
+    ],
+    "date": "2026-06-01",
+    "distractors": [
+      "Let me to rephrase that — I think mistakes help us grow.",
+      "Let me rephrasing that — I think mistakes help us grow.",
+      "Let me rephrase that — I think mistakes helps us grow."
+    ]
   }
 ]
