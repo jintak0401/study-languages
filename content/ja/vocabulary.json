@@ -138,5 +138,55 @@
     "meaning": "어제",
     "examples": ["昨日、映画を見ました。 (어제 영화를 봤습니다.)"],
     "tags": ["명사", "시간", "lesson-1"]
+  },
+  {
+    "id": "kaku",
+    "word": "書く",
+    "reading": "かく",
+    "romaji": "kaku",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "쓰다 (て형: 書いて — く→いて)",
+    "examples": ["手紙を書く。 (편지를 쓴다.)", "名前を書いてください。 (이름을 써 주세요.)"],
+    "tags": ["동사", "1그룹", "lesson-2"]
+  },
+  {
+    "id": "kiku",
+    "word": "聞く",
+    "reading": "きく",
+    "romaji": "kiku",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "듣다·묻다 (て형: 聞いて — く→いて)",
+    "examples": ["音楽を聞く。 (음악을 듣는다.)", "先生に聞いてみる。 (선생님께 물어본다.)"],
+    "tags": ["동사", "1그룹", "lesson-2"]
+  },
+  {
+    "id": "asobu",
+    "word": "遊ぶ",
+    "reading": "あそぶ",
+    "romaji": "asobu",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "놀다 (て형: 遊んで — ぶ→んで)",
+    "examples": ["友達と遊ぶ。 (친구와 논다.)", "公園で遊んでいる。 (공원에서 놀고 있다.)"],
+    "tags": ["동사", "1그룹", "lesson-2"]
+  },
+  {
+    "id": "oyogu",
+    "word": "泳ぐ",
+    "reading": "およぐ",
+    "romaji": "oyogu",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "헤엄치다 (て형: 泳いで — ぐ→いで)",
+    "examples": ["海で泳ぐ。 (바다에서 헤엄친다.)", "毎朝泳いでいます。 (매일 아침 수영합니다.)"],
+    "tags": ["동사", "1그룹", "lesson-2"]
+  },
+  {
+    "id": "motsu",
+    "word": "持つ",
+    "reading": "もつ",
+    "romaji": "motsu",
+    "partOfSpeech": "동사 · 1그룹",
+    "meaning": "들다·가지다 (て형: 持って — つ→って)",
+    "examples": ["かばんを持つ。 (가방을 든다.)", "ちょっと持っててください。 (잠깐 들고 있어 주세요.)"],
+    "tags": ["동사", "1그룹", "lesson-2"]
   }
 ]

@@ -44,5 +44,35 @@
       "I can dedicate 30 minutes daily to learning English."
     ],
     "tags": ["routine", "time"]
+  },
+  {
+    "id": "how-do-you-say",
+    "text": "How do you say this in English?",
+    "ko": "이거 영어로 어떻게 말해요?",
+    "examples": [
+      "How do you say this in English?",
+      "What's the English word for this?"
+    ],
+    "paraphrases": [
+      "What's the English word for this?",
+      "How would you put this in English?",
+      "Is there an English word for this?"
+    ],
+    "tags": ["conversation", "asking"]
+  },
+  {
+    "id": "say-that-again",
+    "text": "Could you say that again, please?",
+    "ko": "다시 말씀해 주시겠어요?",
+    "examples": [
+      "Could you say that again, please?",
+      "Sorry, could you repeat that?"
+    ],
+    "paraphrases": [
+      "Sorry, could you repeat that?",
+      "Would you mind saying that one more time?",
+      "I didn't catch that — could you say it again?"
+    ],
+    "tags": ["conversation", "clarifying"]
   }
 ]

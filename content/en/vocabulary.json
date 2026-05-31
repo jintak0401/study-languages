@@ -53,5 +53,60 @@
       "Paraphrasing helps you sound more natural."
     ],
     "tags": ["learning"]
+  },
+  {
+    "id": "fluent",
+    "word": "fluent",
+    "partOfSpeech": "adjective",
+    "meaning": "유창한 — able to speak a language smoothly and easily",
+    "examples": [
+      "She is fluent in three languages.",
+      "I want to become fluent in English."
+    ],
+    "tags": ["language"]
+  },
+  {
+    "id": "awkward",
+    "word": "awkward",
+    "partOfSpeech": "adjective",
+    "meaning": "어색한, 불편한 — causing or feeling embarrassment or discomfort",
+    "examples": [
+      "There was an awkward silence in the meeting.",
+      "I felt awkward speaking in front of everyone."
+    ],
+    "tags": ["feelings"]
+  },
+  {
+    "id": "get-along-with",
+    "word": "get along with",
+    "partOfSpeech": "phrasal verb",
+    "meaning": "~와 잘 지내다 — to have a good relationship with someone",
+    "examples": [
+      "I get along well with my coworkers.",
+      "Do you get along with your neighbors?"
+    ],
+    "tags": ["relationships", "phrasal-verb"]
+  },
+  {
+    "id": "come-up-with",
+    "word": "come up with",
+    "partOfSpeech": "phrasal verb",
+    "meaning": "~을 생각해내다 — to produce an idea or plan",
+    "examples": [
+      "She came up with a great idea.",
+      "Let's come up with a plan together."
+    ],
+    "tags": ["ideas", "phrasal-verb"]
+  },
+  {
+    "id": "eventually",
+    "word": "eventually",
+    "partOfSpeech": "adverb",
+    "meaning": "결국, 마침내 — in the end, after a long time",
+    "examples": [
+      "If you practice every day, you'll eventually become fluent.",
+      "We were lost, but we eventually found the way."
+    ],
+    "tags": ["time"]
   }
 ]
