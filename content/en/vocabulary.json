@@ -8,7 +8,10 @@
       "The essence of studying a language is communication.",
       "In essence, the two plans are the same."
     ],
-    "tags": ["abstract"]
+    "tags": [
+      "abstract"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "consider",
@@ -19,7 +22,10 @@
       "Please consider re-rendering for optimization.",
       "Have you considered learning with flashcards?"
     ],
-    "tags": ["thinking"]
+    "tags": [
+      "thinking"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "optimization",
@@ -30,7 +36,10 @@
       "Re-render optimization keeps the app fast.",
       "The team focused on performance optimization."
     ],
-    "tags": ["tech"]
+    "tags": [
+      "tech"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "trial-and-error",
@@ -41,7 +50,11 @@
       "I learned to code through trial and error.",
       "We found the answer by trial and error."
     ],
-    "tags": ["learning", "idiom"]
+    "tags": [
+      "learning",
+      "idiom"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "paraphrase",
@@ -52,7 +65,10 @@
       "Can you paraphrase that sentence?",
       "Paraphrasing helps you sound more natural."
     ],
-    "tags": ["learning"]
+    "tags": [
+      "learning"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "fluent",
@@ -63,7 +79,10 @@
       "She is fluent in three languages.",
       "I want to become fluent in English."
     ],
-    "tags": ["language"]
+    "tags": [
+      "language"
+    ],
+    "date": "2026-05-31"
   },
   {
     "id": "awkward",
@@ -74,7 +93,10 @@
       "There was an awkward silence in the meeting.",
       "I felt awkward speaking in front of everyone."
     ],
-    "tags": ["feelings"]
+    "tags": [
+      "feelings"
+    ],
+    "date": "2026-05-31"
   },
   {
     "id": "get-along-with",
@@ -85,7 +107,11 @@
       "I get along well with my coworkers.",
       "Do you get along with your neighbors?"
     ],
-    "tags": ["relationships", "phrasal-verb"]
+    "tags": [
+      "relationships",
+      "phrasal-verb"
+    ],
+    "date": "2026-05-31"
   },
   {
     "id": "come-up-with",
@@ -96,7 +122,11 @@
       "She came up with a great idea.",
       "Let's come up with a plan together."
     ],
-    "tags": ["ideas", "phrasal-verb"]
+    "tags": [
+      "ideas",
+      "phrasal-verb"
+    ],
+    "date": "2026-05-31"
   },
   {
     "id": "eventually",
@@ -107,7 +137,10 @@
       "If you practice every day, you'll eventually become fluent.",
       "We were lost, but we eventually found the way."
     ],
-    "tags": ["time"]
+    "tags": [
+      "time"
+    ],
+    "date": "2026-05-31"
   },
   {
     "id": "perspective",
@@ -118,7 +151,11 @@
       "From my perspective, speaking every day is key.",
       "Try to see it from his perspective."
     ],
-    "tags": ["opinions", "thinking"]
+    "tags": [
+      "opinions",
+      "thinking"
+    ],
+    "date": "2026-06-01"
   },
   {
     "id": "argue",
@@ -129,7 +166,11 @@
       "I would argue that speaking is more important than grammar.",
       "They argued about the best study method."
     ],
-    "tags": ["opinions", "conversation"]
+    "tags": [
+      "opinions",
+      "conversation"
+    ],
+    "date": "2026-06-01"
   },
   {
     "id": "reasonable",
@@ -140,7 +181,11 @@
       "That sounds reasonable to me.",
       "Is 30 minutes a day a reasonable goal?"
     ],
-    "tags": ["opinions", "adjective"]
+    "tags": [
+      "opinions",
+      "adjective"
+    ],
+    "date": "2026-06-01"
   },
   {
     "id": "convince",
@@ -151,7 +196,11 @@
       "I couldn't convince him to try the new method.",
       "Are you convinced that daily practice works?"
     ],
-    "tags": ["opinions", "conversation"]
+    "tags": [
+      "opinions",
+      "conversation"
+    ],
+    "date": "2026-06-01"
   },
   {
     "id": "tend-to",
@@ -162,6 +211,10 @@
       "I tend to forget new words if I don't review them.",
       "Beginners tend to be afraid of making mistakes."
     ],
-    "tags": ["habits", "phrase"]
+    "tags": [
+      "habits",
+      "phrase"
+    ],
+    "date": "2026-06-01"
   }
 ]

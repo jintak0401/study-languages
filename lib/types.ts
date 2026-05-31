@@ -32,6 +32,8 @@ export interface Expression {
   /** Different ways to say the same thing. */
   paraphrases: string[];
   tags: string[];
+  /** Day it was introduced (YYYY-MM-DD) — used to group content by day. */
+  date?: string;
 }
 
 export interface GrammarPoint {
@@ -44,6 +46,8 @@ export interface GrammarPoint {
   tags: string[];
   /** Optional in-depth explanation (Markdown, supports GFM tables). Shown when the card is expanded. */
   detail?: string;
+  /** Day it was introduced (YYYY-MM-DD) — used to group content by day. */
+  date?: string;
 }
 
 export interface VocabularyItem {
@@ -57,6 +61,8 @@ export interface VocabularyItem {
   meaning: string;
   examples: string[];
   tags: string[];
+  /** Day it was introduced (YYYY-MM-DD) — used to group content by day. */
+  date?: string;
 }
 
 export interface Mistake {

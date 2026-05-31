@@ -10,7 +10,11 @@
       "She wants me to call her tomorrow.",
       "They want us to finish by Friday."
     ],
-    "tags": ["verbs", "infinitive"]
+    "tags": [
+      "verbs",
+      "infinitive"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "talk-with-to",
@@ -22,7 +26,11 @@
       "Can I talk to you for a second?",
       "I talked with my teacher about it."
     ],
-    "tags": ["prepositions", "verbs"]
+    "tags": [
+      "prepositions",
+      "verbs"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "every-singular-noun",
@@ -34,7 +42,11 @@
       "I study every day.",
       "Every person is different."
     ],
-    "tags": ["nouns", "quantifiers"]
+    "tags": [
+      "nouns",
+      "quantifiers"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "make-vs-do",
@@ -46,7 +58,11 @@
       "Don't worry if you make a mistake.",
       "I need to make a decision soon."
     ],
-    "tags": ["collocations", "verbs"]
+    "tags": [
+      "collocations",
+      "verbs"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "articles-countable",
@@ -58,7 +74,11 @@
       "I bought a book.",
       "She is an engineer."
     ],
-    "tags": ["articles", "nouns"]
+    "tags": [
+      "articles",
+      "nouns"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "whether-clause",
@@ -70,7 +90,11 @@
       "This decides whether your data follows you across devices.",
       "It depends on whether you study every day."
     ],
-    "tags": ["clauses", "conjunctions"]
+    "tags": [
+      "clauses",
+      "conjunctions"
+    ],
+    "date": "2026-05-30"
   },
   {
     "id": "preposition-gerund",
@@ -83,7 +107,11 @@
       "Thank you for helping me.",
       "She's thinking about changing jobs."
     ],
-    "tags": ["gerund", "prepositions"]
+    "tags": [
+      "gerund",
+      "prepositions"
+    ],
+    "date": "2026-05-31"
   },
   {
     "id": "giving-opinions",
@@ -97,6 +125,11 @@
       "From my perspective, making mistakes is how we grow.",
       "I believe everyone can become fluent with the right habits."
     ],
-    "tags": ["opinions", "conversation", "fluency"]
+    "tags": [
+      "opinions",
+      "conversation",
+      "fluency"
+    ],
+    "date": "2026-06-01"
   }
 ]
