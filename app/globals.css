@@ -106,4 +106,43 @@
     color: var(--color-foreground);
     font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   }
+
+  /* ---- Custom scrollbar: thin, rounded, neutral, theme-aware ----
+     Hidden when idle; fades in while scrolling (html.scrolling, toggled by
+     <ScrollbarActivity/>); thickens + darkens when the thumb is hovered. */
+  @media (pointer: fine) {
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+      transition: scrollbar-color 0.25s ease;
+    }
+    html.scrolling * {
+      scrollbar-color: color-mix(in oklab, var(--color-muted-foreground) 40%, transparent)
+        transparent;
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 9999px;
+      border: 3px solid transparent; /* keeps the visible thumb thin (~4px) */
+      background-color: transparent;
+      background-clip: content-box;
+      transition:
+        background-color 0.25s ease,
+        border-width 0.15s ease;
+    }
+    html.scrolling ::-webkit-scrollbar-thumb {
+      background-color: color-mix(in oklab, var(--color-muted-foreground) 40%, transparent);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      border-width: 2px; /* thicker on hover */
+      background-color: color-mix(in oklab, var(--color-muted-foreground) 75%, transparent);
+    }
+  }
 }

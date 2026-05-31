@@ -34,6 +34,9 @@ export interface Expression {
   tags: string[];
   /** Day it was introduced (YYYY-MM-DD) — used to group content by day. */
   date?: string;
+  /** Quiz: wrong but confusable variants of `text` (minimal pairs) — same
+   *  sentence with a particle/ending/word error. Used as quiz distractors. */
+  distractors?: string[];
 }
 
 export interface GrammarPoint {

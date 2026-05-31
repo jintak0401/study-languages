@@ -17,7 +17,12 @@
       "conversation",
       "goal"
     ],
-    "date": "2026-05-30"
+    "date": "2026-05-30",
+    "distractors": [
+      "I want to talk people from other countries.",
+      "I want talk with people from other countries.",
+      "I want to talking with people from other countries."
+    ]
   },
   {
     "id": "the-essence-of",
@@ -36,7 +41,12 @@
       "learning",
       "opinion"
     ],
-    "date": "2026-05-30"
+    "date": "2026-05-30",
+    "distractors": [
+      "The essence of study a language is talking with people.",
+      "The essence of studying a language is talk with people.",
+      "The essence of studying a language is to talking with people."
+    ]
   },
   {
     "id": "spend-time-studying",
@@ -55,7 +65,12 @@
       "routine",
       "time"
     ],
-    "date": "2026-05-30"
+    "date": "2026-05-30",
+    "distractors": [
+      "I can spend 30 minutes a day to study English.",
+      "I can spend 30 minutes a day study English.",
+      "I can spending 30 minutes a day studying English."
+    ]
   },
   {
     "id": "how-do-you-say",
@@ -74,7 +89,12 @@
       "conversation",
       "asking"
     ],
-    "date": "2026-05-31"
+    "date": "2026-05-31",
+    "distractors": [
+      "How do you say this on English?",
+      "How you say this in English?",
+      "How do you saying this in English?"
+    ]
   },
   {
     "id": "say-that-again",
@@ -93,7 +113,12 @@
       "conversation",
       "clarifying"
     ],
-    "date": "2026-05-31"
+    "date": "2026-05-31",
+    "distractors": [
+      "Could you saying that again, please?",
+      "Can you said that again, please?",
+      "Could you say that again, pleased?"
+    ]
   },
   {
     "id": "in-my-opinion",
@@ -112,7 +137,12 @@
       "opinions",
       "fluency"
     ],
-    "date": "2026-06-01"
+    "date": "2026-06-01",
+    "distractors": [
+      "In my opinion, speak every day is more important than perfect grammar.",
+      "In my opinion, speaking every day is more important then perfect grammar.",
+      "On my opinion, speaking every day is more important than perfect grammar."
+    ]
   },
   {
     "id": "i-tend-to",
@@ -132,6 +162,11 @@
       "vocabulary",
       "learning"
     ],
-    "date": "2026-06-01"
+    "date": "2026-06-01",
+    "distractors": [
+      "I tend to forgetting vocabulary if I don't review it.",
+      "I tend forget vocabulary if I don't review it.",
+      "I tend to forget vocabularies if I don't review it."
+    ]
   }
 ]

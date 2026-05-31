@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { PwaRegister } from "@/components/pwa-register";
+import { ScrollbarActivity } from "@/components/scrollbar-activity";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({
@@ -36,6 +37,7 @@ export default function RootLayout({
     >
       <body className="min-h-full">
         <PwaRegister />
+        <ScrollbarActivity />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

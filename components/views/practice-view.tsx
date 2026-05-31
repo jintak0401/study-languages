@@ -9,21 +9,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SpeakButton } from "@/components/speak-button";
 import { useHydrated, useProgressStore } from "@/lib/store/progress";
 import { cn } from "@/lib/utils";
+import type { PracticeCard } from "@/lib/quiz";
 
-export interface PracticeCard {
-  id: string;
-  front: string;
-  back: string;
-  /** Target-language text to read aloud. */
-  speak: string;
-  kind: string;
-  /** Quiz: what the learner should pick. */
-  instruction?: string;
-  /** Quiz: optional hint, revealed on demand. */
-  hint?: string;
-  /** Quiz: preferred wrong options (same language as `back`), best first. */
-  distractors?: string[];
-}
+export type { PracticeCard };
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -77,6 +65,44 @@ export function PracticeView({
       ) : (
         <Quiz cards={cards} ttsLang={ttsLang} />
       )}
+    </div>
+  );
+}
+
+/**
+ * Wraps a section's normal list with a 목록 / 퀴즈 toggle, so each section
+ * (vocab, grammar, expressions) can quiz its own items in place.
+ */
+export function SectionPractice({
+  list,
+  cards,
+  ttsLang,
+}: {
+  list: React.ReactNode;
+  cards: PracticeCard[];
+  ttsLang: string;
+}) {
+  const [mode, setMode] = useState<"list" | "quiz">("list");
+  return (
+    <div className="space-y-4">
+      <div className="flex gap-2">
+        <Button
+          variant={mode === "list" ? "default" : "secondary"}
+          size="sm"
+          onClick={() => setMode("list")}
+        >
+          목록
+        </Button>
+        <Button
+          variant={mode === "quiz" ? "default" : "secondary"}
+          size="sm"
+          onClick={() => setMode("quiz")}
+          disabled={cards.length === 0}
+        >
+          퀴즈
+        </Button>
+      </div>
+      {mode === "list" ? list : <Quiz cards={cards} ttsLang={ttsLang} />}
     </div>
   );
 }
