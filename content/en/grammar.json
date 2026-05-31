@@ -71,5 +71,18 @@
       "It depends on whether you study every day."
     ],
     "tags": ["clauses", "conjunctions"]
+  },
+  {
+    "id": "preposition-gerund",
+    "title": "preposition + -ing",
+    "rule": "After a preposition (at, in, about, of, for, on…), use the -ing form, not the base verb.",
+    "wrong": "I'm good at speak English.",
+    "right": "I'm good at speaking English.",
+    "examples": [
+      "I'm interested in learning Japanese.",
+      "Thank you for helping me.",
+      "She's thinking about changing jobs."
+    ],
+    "tags": ["gerund", "prepositions"]
   }
 ]
