@@ -1,15 +1,7 @@
-// Simple offline-first service worker for the Study English PWA.
-const CACHE = "study-en-v1";
-const CORE = [
-  "/",
-  "/expressions",
-  "/grammar",
-  "/vocabulary",
-  "/mistakes",
-  "/logs",
-  "/progress",
-  "/practice",
-];
+// Offline-capable service worker for the Study Languages PWA.
+// Bump CACHE to force old caches to clear on the next visit.
+const CACHE = "study-langs-v2";
+const CORE = ["/en", "/ja"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -32,21 +24,41 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-// Stale-while-revalidate for same-origin GET requests.
 self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Page navigations: NETWORK-FIRST so new deploys show immediately when
+  // online; fall back to cache only when offline. (Previously stale-while-
+  // revalidate served the old page until the next visit.)
+  const isNavigation =
+    request.mode === "navigate" ||
+    (request.headers.get("accept") || "").includes("text/html");
+
+  if (isNavigation) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response && response.status === 200) {
+            const copy = response.clone();
+            caches.open(CACHE).then((cache) => cache.put(request, copy));
+          }
+          return response;
+        })
+        .catch(async () => (await caches.match(request)) || caches.match("/en")),
+    );
+    return;
+  }
+
+  // Static assets (Next.js outputs content-hashed files): stale-while-revalidate.
   event.respondWith(
     caches.open(CACHE).then(async (cache) => {
       const cached = await cache.match(request);
       const network = fetch(request)
         .then((response) => {
-          if (response && response.status === 200) {
-            cache.put(request, response.clone());
-          }
+          if (response && response.status === 200) cache.put(request, response.clone());
           return response;
         })
         .catch(() => cached);
