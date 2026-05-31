@@ -55,7 +55,7 @@ function NavLinks({
       className={cn(
         orientation === "vertical"
           ? "flex flex-col gap-1"
-          : "flex gap-1 overflow-x-auto pb-1",
+          : "no-scrollbar flex gap-1 overflow-x-auto pb-1",
       )}
     >
       {NAV_ITEMS.map(({ href, label, icon: Icon }) => {

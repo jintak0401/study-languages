@@ -72,7 +72,7 @@ export function DayGrouped<T extends { id: string }>({
     <div className="min-w-0 space-y-4">
       <SearchBar value={q} onChange={setQ} placeholder={placeholder} />
 
-      <div className="flex gap-1.5 overflow-x-auto pb-1">
+      <div className="no-scrollbar flex gap-1.5 overflow-x-auto pb-1">
         <button type="button" onClick={() => setDay(null)} className={chip(day === null)}>
           전체
         </button>
