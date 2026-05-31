@@ -74,5 +74,35 @@
       "I didn't catch that — could you say it again?"
     ],
     "tags": ["conversation", "clarifying"]
+  },
+  {
+    "id": "in-my-opinion",
+    "text": "In my opinion, speaking every day is more important than perfect grammar.",
+    "ko": "제 생각엔, 매일 말하는 게 완벽한 문법보다 더 중요해요.",
+    "examples": [
+      "In my opinion, speaking every day is more important than perfect grammar.",
+      "I think daily speaking beats perfect grammar."
+    ],
+    "paraphrases": [
+      "I think daily practice matters more than being grammatically perfect.",
+      "From my perspective, consistent speaking beats perfect grammar.",
+      "I'd say fluency comes from practice, not perfection."
+    ],
+    "tags": ["opinions", "fluency"]
+  },
+  {
+    "id": "i-tend-to",
+    "text": "I tend to forget vocabulary if I don't review it.",
+    "ko": "복습하지 않으면 단어를 잊어버리는 경향이 있어요.",
+    "examples": [
+      "I tend to forget vocabulary if I don't review it.",
+      "I usually forget new words unless I practise them regularly."
+    ],
+    "paraphrases": [
+      "I usually forget words if I don't practise them.",
+      "Without review, I end up forgetting new vocabulary.",
+      "If I skip review, I lose the words I've learned."
+    ],
+    "tags": ["habits", "vocabulary", "learning"]
   }
 ]

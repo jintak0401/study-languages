@@ -108,5 +108,60 @@
       "We were lost, but we eventually found the way."
     ],
     "tags": ["time"]
+  },
+  {
+    "id": "perspective",
+    "word": "perspective",
+    "partOfSpeech": "noun",
+    "meaning": "관점 — a particular way of thinking about something",
+    "examples": [
+      "From my perspective, speaking every day is key.",
+      "Try to see it from his perspective."
+    ],
+    "tags": ["opinions", "thinking"]
+  },
+  {
+    "id": "argue",
+    "word": "argue",
+    "partOfSpeech": "verb",
+    "meaning": "주장하다, 논쟁하다 — to give reasons for or against something (not always a fight!)",
+    "examples": [
+      "I would argue that speaking is more important than grammar.",
+      "They argued about the best study method."
+    ],
+    "tags": ["opinions", "conversation"]
+  },
+  {
+    "id": "reasonable",
+    "word": "reasonable",
+    "partOfSpeech": "adjective",
+    "meaning": "합리적인 — fair and sensible",
+    "examples": [
+      "That sounds reasonable to me.",
+      "Is 30 minutes a day a reasonable goal?"
+    ],
+    "tags": ["opinions", "adjective"]
+  },
+  {
+    "id": "convince",
+    "word": "convince",
+    "partOfSpeech": "verb",
+    "meaning": "설득하다, 납득시키다 — to make someone believe or agree",
+    "examples": [
+      "I couldn't convince him to try the new method.",
+      "Are you convinced that daily practice works?"
+    ],
+    "tags": ["opinions", "conversation"]
+  },
+  {
+    "id": "tend-to",
+    "word": "tend to",
+    "partOfSpeech": "phrase",
+    "meaning": "~하는 경향이 있다 — to usually do or be something",
+    "examples": [
+      "I tend to forget new words if I don't review them.",
+      "Beginners tend to be afraid of making mistakes."
+    ],
+    "tags": ["habits", "phrase"]
   }
 ]

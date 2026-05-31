@@ -84,5 +84,19 @@
       "She's thinking about changing jobs."
     ],
     "tags": ["gerund", "prepositions"]
+  },
+  {
+    "id": "giving-opinions",
+    "title": "Giving opinions: I think / In my opinion / I'd say",
+    "rule": "Use 'I think...', 'I believe...', 'I feel...' + a sentence, or 'In my opinion,' / 'From my perspective,' at the start of a sentence. Don't say 'My opinion is that…' — it sounds stiff.",
+    "wrong": "My opinion is the daily practice is the best way to improve.",
+    "right": "In my opinion, daily practice is the best way to improve.",
+    "examples": [
+      "I think consistency matters more than studying for long hours.",
+      "I'd say speaking with native speakers is the fastest way to learn.",
+      "From my perspective, making mistakes is how we grow.",
+      "I believe everyone can become fluent with the right habits."
+    ],
+    "tags": ["opinions", "conversation", "fluency"]
   }
 ]
