@@ -44,10 +44,10 @@
     "type": "make vs do",
     "wrong": "do a mistake",
     "right": "make a mistake",
-    "reason": "We 'make' mistakes, never 'do' them.",
-    "count": 1,
+    "reason": "We 'make' mistakes, never 'do' or 'take' them. Also: 'make a mistake' (singular, with 'a'), not 'a mistakes'.",
+    "count": 2,
     "firstSeen": "2026-05-30",
-    "lastSeen": "2026-05-30"
+    "lastSeen": "2026-05-31"
   },
   {
     "id": "every-singular",
@@ -94,10 +94,10 @@
     "type": "preposition (in / on)",
     "wrong": "write on Markdown / study at website",
     "right": "write in Markdown / study on the website",
-    "reason": "Write 'in' a language or format; do things 'on' a website.",
-    "count": 2,
+    "reason": "Write 'in' a language or format; do things 'on' a website / 'on' a device (on mobile, not 'at mobile').",
+    "count": 3,
     "firstSeen": "2026-05-30",
-    "lastSeen": "2026-05-30"
+    "lastSeen": "2026-05-31"
   },
   {
     "id": "spelling-people",
@@ -128,5 +128,75 @@
     "count": 1,
     "firstSeen": "2026-05-30",
     "lastSeen": "2026-05-30"
+  },
+  {
+    "id": "uncountable-content",
+    "type": "uncountable noun (content / vocabulary)",
+    "wrong": "daily contents / vocabularys / much contents",
+    "right": "daily content / vocabulary / much content",
+    "reason": "'content' and 'vocabulary' are uncountable: no '-s', no 'a'. Say 'a lot of content', 'much vocabulary'.",
+    "count": 3,
+    "firstSeen": "2026-05-31",
+    "lastSeen": "2026-05-31"
+  },
+  {
+    "id": "focus-on-gerund",
+    "type": "focus on + -ing",
+    "wrong": "focus to study what I don't know",
+    "right": "focus on studying what I don't know",
+    "reason": "'focus' takes the preposition 'on', and after a preposition the verb is the -ing form.",
+    "count": 1,
+    "firstSeen": "2026-05-31",
+    "lastSeen": "2026-05-31"
+  },
+  {
+    "id": "embedded-question-order",
+    "type": "indirect (embedded) question word order",
+    "wrong": "explain what should I do",
+    "right": "explain what I should do",
+    "reason": "When a question is inside a sentence, use statement order: question word + subject + verb (not the inverted question order).",
+    "count": 1,
+    "firstSeen": "2026-05-31",
+    "lastSeen": "2026-05-31"
+  },
+  {
+    "id": "missing-verb-can-you",
+    "type": "missing verb after 'Can you'",
+    "wrong": "Can you both?",
+    "right": "Can you do both?",
+    "reason": "'Can you ___?' needs a main verb. Add the verb: 'Can you do both?'",
+    "count": 1,
+    "firstSeen": "2026-05-31",
+    "lastSeen": "2026-05-31"
+  },
+  {
+    "id": "feature-rich-word",
+    "type": "word coinage (not a real word)",
+    "wrong": "Is the app more featurable?",
+    "right": "Is the app more feature-rich? / Does it have more features?",
+    "reason": "'featurable' is not a word. Use 'feature-rich' or 'have more features'.",
+    "count": 1,
+    "firstSeen": "2026-05-31",
+    "lastSeen": "2026-05-31"
+  },
+  {
+    "id": "might-vs-maybe-will",
+    "type": "might vs 'maybe ... will'",
+    "wrong": "Maybe I will study in this chat.",
+    "right": "I might study in this chat.",
+    "reason": "'might + base verb' is the natural way to say a possibility — smoother than 'maybe ... will'.",
+    "count": 1,
+    "firstSeen": "2026-05-31",
+    "lastSeen": "2026-05-31"
+  },
+  {
+    "id": "still-vs-also",
+    "type": "still vs also",
+    "wrong": "But it also shows like this.",
+    "right": "But it still shows like this.",
+    "reason": "'still' = the situation continues/persists; 'also' = in addition. For 'it hasn't changed', use 'still'.",
+    "count": 1,
+    "firstSeen": "2026-05-31",
+    "lastSeen": "2026-05-31"
   }
 ]

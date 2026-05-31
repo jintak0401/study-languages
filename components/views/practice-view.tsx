@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Check, RotateCcw, Shuffle, X } from "lucide-react";
+import { Check, Lightbulb, RotateCcw, Shuffle, X } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -17,6 +17,12 @@ export interface PracticeCard {
   /** Target-language text to read aloud. */
   speak: string;
   kind: string;
+  /** Quiz: what the learner should pick. */
+  instruction?: string;
+  /** Quiz: optional hint, revealed on demand. */
+  hint?: string;
+  /** Quiz: preferred wrong options (same language as `back`), best first. */
+  distractors?: string[];
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -36,6 +42,12 @@ export function PracticeView({
   ttsLang: string;
 }) {
   const [mode, setMode] = useState<"flashcards" | "quiz">("flashcards");
+
+  // Flashcards only make sense for vocab/expressions, not the trap/grammar cards.
+  const flashcards = useMemo(
+    () => cards.filter((c) => c.kind === "단어" || c.kind === "표현"),
+    [cards],
+  );
 
   if (cards.length === 0) {
     return (
@@ -61,7 +73,7 @@ export function PracticeView({
         ))}
       </div>
       {mode === "flashcards" ? (
-        <FlashcardDeck cards={cards} ttsLang={ttsLang} />
+        <FlashcardDeck cards={flashcards} ttsLang={ttsLang} />
       ) : (
         <Quiz cards={cards} ttsLang={ttsLang} />
       )}
@@ -156,19 +168,40 @@ interface Question {
   options: string[];
 }
 
+/** Build 4 confusable options: the answer + its best distractors, padded from
+ *  the same-kind pool, then any pool. */
+function buildOptions(card: PracticeCard, pool: PracticeCard[]): string[] {
+  const opts = new Set<string>([card.back]);
+  const ds = card.distractors ?? [];
+  // Always keep the first distractor — for trap questions it's the true
+  // minimal-pair wrong form, which must appear as an option.
+  if (ds[0] && ds[0] !== card.back) opts.add(ds[0]);
+  for (const d of shuffle(ds.slice(1))) {
+    if (opts.size >= 4) break;
+    if (d && d !== card.back) opts.add(d);
+  }
+  const fill = (candidates: string[]) => {
+    for (const c of shuffle(candidates)) {
+      if (opts.size >= 4) break;
+      if (c && c !== card.back) opts.add(c);
+    }
+  };
+  if (opts.size < 4)
+    fill(pool.filter((c) => c.kind === card.kind).map((c) => c.back));
+  if (opts.size < 4) fill(pool.map((c) => c.back));
+  return shuffle([...opts]);
+}
+
 function Quiz({ cards, ttsLang }: { cards: PracticeCard[]; ttsLang: string }) {
   const [seed, setSeed] = useState(0);
   const [pos, setPos] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [score, setScore] = useState(0);
+  const [showHint, setShowHint] = useState(false);
 
   const questions = useMemo<Question[]>(() => {
     void seed;
-    const backs = cards.map((c) => c.back);
-    return shuffle(cards).map((card) => {
-      const distractors = shuffle(backs.filter((b) => b !== card.back)).slice(0, 3);
-      return { card, options: shuffle([card.back, ...distractors]) };
-    });
+    return shuffle(cards).map((card) => ({ card, options: buildOptions(card, cards) }));
   }, [cards, seed]);
 
   const q = questions[pos];
@@ -190,6 +223,7 @@ function Quiz({ cards, ttsLang }: { cards: PracticeCard[]; ttsLang: string }) {
       setPos((p) => p + 1);
     }
     setSelected(null);
+    setShowHint(false);
   }
 
   return (
@@ -208,7 +242,9 @@ function Quiz({ cards, ttsLang }: { cards: PracticeCard[]; ttsLang: string }) {
             <SpeakButton text={q.card.speak} lang={ttsLang} />
           </div>
           <p className="pt-2 text-lg font-semibold">{q.card.front}</p>
-          <p className="text-sm text-muted-foreground">Which one matches?</p>
+          <p className="text-sm text-muted-foreground">
+            {q.card.instruction ?? "Which one matches?"}
+          </p>
         </CardContent>
       </Card>
 
@@ -230,14 +266,31 @@ function Quiz({ cards, ttsLang }: { cards: PracticeCard[]; ttsLang: string }) {
               )}
             >
               <span>{opt}</span>
-              {answered && correct && <Check className="size-4 text-success" />}
+              {answered && correct && <Check className="size-4 shrink-0 text-success" />}
               {answered && chosen && !correct && (
-                <X className="size-4 text-destructive" />
+                <X className="size-4 shrink-0 text-destructive" />
               )}
             </button>
           );
         })}
       </div>
+
+      {q.card.hint && !answered && (
+        <div>
+          <Button variant="ghost" size="sm" onClick={() => setShowHint((h) => !h)}>
+            <Lightbulb /> {showHint ? "힌트 숨기기" : "힌트 보기"}
+          </Button>
+          {showHint && (
+            <p className="px-1 text-sm text-muted-foreground">{q.card.hint}</p>
+          )}
+        </div>
+      )}
+
+      {answered && q.card.hint && (
+        <p className="rounded-lg bg-muted/50 px-4 py-2 text-sm text-muted-foreground">
+          💡 {q.card.hint}
+        </p>
+      )}
 
       {answered && (
         <Button onClick={next} className="w-full">
