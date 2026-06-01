@@ -149,5 +149,23 @@
       "mistakes"
     ],
     "date": "2026-06-01"
+  },
+  {
+    "id": "used-to",
+    "title": "used to + verb (과거 습관)",
+    "rule": "Use 'used to + base verb' to describe a past habit or state that no longer exists. Don't confuse with 'be used to + -ing' (= accustomed to, still true now).",
+    "wrong": "I use to study English every day.",
+    "right": "I used to study English every day, but now I study on my own.",
+    "examples": [
+      "I used to be nervous about speaking, but now I'm more confident.",
+      "She used to live in Seoul before she moved abroad.",
+      "We used to have English lessons twice a week at school."
+    ],
+    "tags": [
+      "verbs",
+      "past",
+      "habits"
+    ],
+    "date": "2026-06-02"
   }
 ]

@@ -218,5 +218,55 @@
       "Let me rephrasing that — I think mistakes help us grow.",
       "Let me rephrase that — I think mistakes helps us grow."
     ]
+  },
+  {
+    "id": "used-to-be-nervous",
+    "text": "I used to be nervous about speaking English, but now I enjoy it.",
+    "ko": "예전엔 영어로 말하는 게 긴장됐는데, 이제는 즐거워요.",
+    "examples": [
+      "I used to be nervous about speaking English, but now I enjoy it.",
+      "I was once too shy to speak, but that's changed a lot."
+    ],
+    "paraphrases": [
+      "I once found speaking English scary, but I've grown to love it.",
+      "Speaking used to stress me out, but now I look forward to it.",
+      "I've come a long way — I'm not as nervous about speaking as I used to be."
+    ],
+    "tags": [
+      "habits",
+      "past",
+      "fluency"
+    ],
+    "date": "2026-06-02",
+    "distractors": [
+      "I was used to be nervous about speaking English, but now I enjoy it.",
+      "I use to be nervous about speaking English, but now I enjoy it.",
+      "I used to being nervous about speaking English, but now I enjoy it."
+    ]
+  },
+  {
+    "id": "lately-struggling",
+    "text": "Lately, I've been struggling with pronunciation more than grammar.",
+    "ko": "요즘은 문법보다 발음이 더 힘들어요.",
+    "examples": [
+      "Lately, I've been struggling with pronunciation more than grammar.",
+      "These days, pronunciation is giving me more trouble than grammar."
+    ],
+    "paraphrases": [
+      "Recently, pronunciation has been harder for me than grammar.",
+      "I find pronunciation more challenging than grammar at the moment.",
+      "Grammar is okay, but I've been having a hard time with pronunciation lately."
+    ],
+    "tags": [
+      "habits",
+      "fluency",
+      "speaking"
+    ],
+    "date": "2026-06-02",
+    "distractors": [
+      "Lately, I've been struggling on pronunciation more than grammar.",
+      "Lately, I been struggling with pronunciation more than grammar.",
+      "Lately, I've been struggle with pronunciation more than grammar."
+    ]
   }
 ]

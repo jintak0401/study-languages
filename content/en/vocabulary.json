@@ -291,5 +291,79 @@
       "adjective"
     ],
     "date": "2026-06-01"
+  },
+  {
+    "id": "routine",
+    "word": "routine",
+    "partOfSpeech": "noun / adjective",
+    "meaning": "일상, 루틴 — a fixed set of actions done regularly",
+    "examples": [
+      "I built a morning routine that includes 20 minutes of English.",
+      "Sticking to a routine makes studying feel easier."
+    ],
+    "tags": [
+      "habits",
+      "daily-life"
+    ],
+    "date": "2026-06-02"
+  },
+  {
+    "id": "lately",
+    "word": "lately",
+    "partOfSpeech": "adverb",
+    "meaning": "최근에, 요즘 — in the recent past; recently",
+    "examples": [
+      "Lately, I've been watching English YouTube videos every morning.",
+      "Have you been practising a lot lately?"
+    ],
+    "tags": [
+      "time"
+    ],
+    "date": "2026-06-02"
+  },
+  {
+    "id": "struggle",
+    "word": "struggle",
+    "partOfSpeech": "verb / noun",
+    "meaning": "힘들어하다, 애쓰다 / 힘든 과정 — to have difficulty doing something",
+    "examples": [
+      "I used to struggle with pronunciation, but it's getting better.",
+      "Learning grammar is a struggle at first, but it gets easier."
+    ],
+    "tags": [
+      "feelings",
+      "learning"
+    ],
+    "date": "2026-06-02"
+  },
+  {
+    "id": "expand",
+    "word": "expand",
+    "partOfSpeech": "verb",
+    "meaning": "넓히다, 확장하다 — to make something larger or wider",
+    "examples": [
+      "Reading helps you expand your vocabulary.",
+      "I want to expand my speaking skills beyond basic conversation."
+    ],
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "date": "2026-06-02"
+  },
+  {
+    "id": "confident",
+    "word": "confident",
+    "partOfSpeech": "adjective",
+    "meaning": "자신 있는 — certain about your ability; not shy or hesitant",
+    "examples": [
+      "I used to be shy, but now I feel more confident speaking English.",
+      "The more you practise, the more confident you become."
+    ],
+    "tags": [
+      "feelings",
+      "fluency"
+    ],
+    "date": "2026-06-02"
   }
 ]
