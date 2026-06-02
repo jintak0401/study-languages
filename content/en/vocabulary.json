@@ -365,5 +365,80 @@
       "fluency"
     ],
     "date": "2026-06-02"
+  },
+  {
+    "id": "suggest",
+    "word": "suggest",
+    "partOfSpeech": "verb",
+    "meaning": "제안하다 — to put forward an idea for someone to consider",
+    "examples": [
+      "I suggest practising speaking for at least ten minutes a day.",
+      "Can you suggest a good way to memorise vocabulary?"
+    ],
+    "tags": [
+      "advice",
+      "communication"
+    ],
+    "date": "2026-06-03"
+  },
+  {
+    "id": "recommend",
+    "word": "recommend",
+    "partOfSpeech": "verb",
+    "meaning": "추천하다, 권하다 — to advise someone that something is good or suitable",
+    "examples": [
+      "I recommend watching English news for fifteen minutes a day.",
+      "My teacher recommended using a vocabulary app."
+    ],
+    "tags": [
+      "advice",
+      "communication"
+    ],
+    "date": "2026-06-03"
+  },
+  {
+    "id": "encourage",
+    "word": "encourage",
+    "partOfSpeech": "verb",
+    "meaning": "격려하다, 권장하다 — to give someone confidence or support to do something",
+    "examples": [
+      "My friend encouraged me to speak even when I make mistakes.",
+      "It helps to encourage yourself after each practice session."
+    ],
+    "tags": [
+      "feelings",
+      "learning"
+    ],
+    "date": "2026-06-03"
+  },
+  {
+    "id": "remind",
+    "word": "remind",
+    "partOfSpeech": "verb",
+    "meaning": "상기시키다, 떠올리게 하다 — to cause someone to remember something",
+    "examples": [
+      "Please remind me to review those new words tonight.",
+      "This grammar rule reminds me of a similar one in Korean."
+    ],
+    "tags": [
+      "learning",
+      "memory"
+    ],
+    "date": "2026-06-03"
+  },
+  {
+    "id": "overcome",
+    "word": "overcome",
+    "partOfSpeech": "verb",
+    "meaning": "극복하다 — to successfully deal with a difficulty or fear",
+    "examples": [
+      "The best way to overcome a fear of speaking is to speak more.",
+      "It takes time to overcome bad habits."
+    ],
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "date": "2026-06-03"
   }
 ]

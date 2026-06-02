@@ -167,5 +167,24 @@
       "habits"
     ],
     "date": "2026-06-02"
+  },
+  {
+    "id": "making-suggestions",
+    "title": "Making suggestions: should / Why don't you / How about / You might want to",
+    "rule": "To give advice or make suggestions, use: (1) 'should + base verb' — general advice; (2) 'Why don't you/we + base verb?' — friendly suggestion; (3) 'How about + -ing?' — casual idea; (4) 'You might want to + base verb' — polite, softer advice. After 'Why don't you/we', do NOT add 'to'.",
+    "wrong": "Why don't you to try speaking with a tutor?",
+    "right": "Why don't you try speaking with a tutor?",
+    "examples": [
+      "You should review vocabulary every day, not just before a test.",
+      "Why don't we watch an English drama together?",
+      "How about keeping a small notebook for new words?",
+      "You might want to slow down a little — clarity matters more than speed."
+    ],
+    "tags": [
+      "advice",
+      "suggestions",
+      "modals"
+    ],
+    "date": "2026-06-03"
   }
 ]

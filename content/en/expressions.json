@@ -268,5 +268,55 @@
       "Lately, I been struggling with pronunciation more than grammar.",
       "Lately, I've been struggle with pronunciation more than grammar."
     ]
+  },
+  {
+    "id": "why-dont-we",
+    "text": "Why don't we try watching English dramas without subtitles?",
+    "ko": "영어 드라마를 자막 없이 보는 건 어때요?",
+    "examples": [
+      "Why don't we try watching English dramas without subtitles?",
+      "How about watching a short English video without subtitles?"
+    ],
+    "paraphrases": [
+      "What if we watched English dramas with no subtitles?",
+      "Let's challenge ourselves by watching English dramas without subtitles.",
+      "How about giving English dramas without subtitles a go?"
+    ],
+    "tags": [
+      "suggestions",
+      "fluency",
+      "listening"
+    ],
+    "date": "2026-06-03",
+    "distractors": [
+      "Why don't we to try watching English dramas without subtitles?",
+      "Why we don't try watching English dramas without subtitles?",
+      "Why don't we try to watching English dramas without subtitles?"
+    ]
+  },
+  {
+    "id": "you-might-want-to",
+    "text": "You might want to keep a vocabulary notebook.",
+    "ko": "단어 노트를 만들어 두는 게 좋을 것 같아요.",
+    "examples": [
+      "You might want to keep a vocabulary notebook.",
+      "It might be a good idea to write down new words in a notebook."
+    ],
+    "paraphrases": [
+      "You should consider keeping a vocabulary notebook.",
+      "I'd suggest keeping a notebook for new words.",
+      "How about writing down new vocabulary in a notebook?"
+    ],
+    "tags": [
+      "suggestions",
+      "vocabulary",
+      "study-tips"
+    ],
+    "date": "2026-06-03",
+    "distractors": [
+      "You might want keeping a vocabulary notebook.",
+      "You might to want to keep a vocabulary notebook.",
+      "You might want to kept a vocabulary notebook."
+    ]
   }
 ]
