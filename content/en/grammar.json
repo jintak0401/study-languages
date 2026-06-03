@@ -186,5 +186,24 @@
       "modals"
     ],
     "date": "2026-06-03"
+  },
+  {
+    "id": "present-perfect",
+    "title": "Present perfect: have/has + past participle",
+    "rule": "Use 'have/has + past participle' for: (1) life experiences without a specific time ('I've visited Japan'), (2) recent events still connected to now ('I've just finished'), (3) situations that started in the past and continue now ('I've studied English for five years'). Do NOT use present perfect with finished-time words like 'yesterday', 'last year', 'in 2020' — switch to simple past then.",
+    "wrong": "I study English for five years.",
+    "right": "I've studied English for five years. (started in the past, still continuing → present perfect)",
+    "examples": [
+      "I've visited Japan twice — it was amazing both times.",
+      "Have you ever tried speaking English with a complete stranger?",
+      "She hasn't missed a single practice session this month.",
+      "I've just realised I was pronouncing that word wrong the whole time."
+    ],
+    "tags": [
+      "verbs",
+      "tense",
+      "conversation"
+    ],
+    "date": "2026-06-04"
   }
 ]

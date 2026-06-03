@@ -440,5 +440,80 @@
       "growth"
     ],
     "date": "2026-06-03"
+  },
+  {
+    "id": "accomplish",
+    "word": "accomplish",
+    "partOfSpeech": "verb",
+    "meaning": "이루다, 해내다 — to successfully complete or achieve something",
+    "examples": [
+      "I've accomplished more in a month of daily practice than in a year of sporadic study.",
+      "What have you accomplished so far in your language learning journey?"
+    ],
+    "tags": [
+      "achievement",
+      "learning"
+    ],
+    "date": "2026-06-04"
+  },
+  {
+    "id": "achieve",
+    "word": "achieve",
+    "partOfSpeech": "verb",
+    "meaning": "성취하다, 달성하다 — to reach a goal through effort",
+    "examples": [
+      "I've finally achieved something I've wanted for years — I held a full conversation in English.",
+      "Hard work is the only way to achieve real fluency."
+    ],
+    "tags": [
+      "achievement",
+      "growth"
+    ],
+    "date": "2026-06-04"
+  },
+  {
+    "id": "progress",
+    "word": "progress",
+    "partOfSpeech": "noun / verb",
+    "meaning": "진전, 발전 / 발전하다 — forward movement toward a goal",
+    "examples": [
+      "I've made a lot of progress with listening this month.",
+      "It's hard to notice progress day by day, but looking back, I've come a long way."
+    ],
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "date": "2026-06-04"
+  },
+  {
+    "id": "keep-up-with",
+    "word": "keep up with",
+    "partOfSpeech": "phrasal verb",
+    "meaning": "~을 따라가다, 유지하다 — to maintain the same pace or level as someone or something",
+    "examples": [
+      "I've been trying to keep up with the news in English every morning.",
+      "It's hard to keep up with native speakers at first, but you get used to it."
+    ],
+    "tags": [
+      "habits",
+      "phrasal-verb"
+    ],
+    "date": "2026-06-04"
+  },
+  {
+    "id": "click",
+    "word": "click (everything clicked)",
+    "partOfSpeech": "verb (informal)",
+    "meaning": "(이해가) 딱 맞아 떨어지다, 갑자기 깨달아지다 — when something suddenly becomes clear or makes sense",
+    "examples": [
+      "I've studied grammar rules for months, but yesterday it finally clicked.",
+      "Have you ever had that moment when everything just clicks?"
+    ],
+    "tags": [
+      "learning",
+      "informal"
+    ],
+    "date": "2026-06-04"
   }
 ]

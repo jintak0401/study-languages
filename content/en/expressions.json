@@ -318,5 +318,55 @@
       "You might to want to keep a vocabulary notebook.",
       "You might want to kept a vocabulary notebook."
     ]
+  },
+  {
+    "id": "ive-been-studying",
+    "text": "I've been studying English for about five years, but speaking is still the hardest part.",
+    "ko": "영어를 약 5년간 공부해 왔는데, 말하기가 여전히 가장 어려운 부분이에요.",
+    "examples": [
+      "I've been studying English for about five years, but speaking is still the hardest part.",
+      "I've been learning English since middle school, though I've mostly focused on reading."
+    ],
+    "paraphrases": [
+      "It's been about five years since I started studying English, and speaking is still my weakest area.",
+      "I've put in around five years of English study, but I still struggle to speak naturally.",
+      "I've been at this for five years now, yet speaking fluently is still a challenge for me."
+    ],
+    "tags": [
+      "tense",
+      "experience",
+      "conversation"
+    ],
+    "date": "2026-06-04",
+    "distractors": [
+      "I've been studying English since about five years, but speaking is still the hardest part.",
+      "I've been study English for about five years, but speaking is still the hardest part.",
+      "I've been studying English for about five years, but speaking is still the most hardest part."
+    ]
+  },
+  {
+    "id": "everything-clicked",
+    "text": "Have you ever had a moment when everything just clicked?",
+    "ko": "모든 게 딱 맞아 떨어지는 순간을 경험한 적 있어요?",
+    "examples": [
+      "Have you ever had a moment when everything just clicked?",
+      "I had one of those moments last week where everything suddenly made sense."
+    ],
+    "paraphrases": [
+      "Have you ever had a moment where it all suddenly made sense?",
+      "Have you experienced that feeling when things just fall into place?",
+      "Have you ever had an 'aha' moment while studying?"
+    ],
+    "tags": [
+      "tense",
+      "experience",
+      "conversation"
+    ],
+    "date": "2026-06-04",
+    "distractors": [
+      "Have you ever had a moment when everything just click?",
+      "Have you ever had a moment when everything just has clicked?",
+      "Did you ever have a moment when everything just clicked?"
+    ]
   }
 ]
