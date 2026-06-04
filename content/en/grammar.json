@@ -205,5 +205,24 @@
       "conversation"
     ],
     "date": "2026-06-04"
+  },
+  {
+    "id": "second-conditional",
+    "title": "2nd conditional: If + past simple → would + base verb",
+    "rule": "Use the 2nd conditional for unreal or imaginary present/future situations: 'If + past simple, would + base verb'. Do NOT put 'would' in the if-clause. The past tense signals the situation is hypothetical — not that it happened in the past.",
+    "wrong": "If I would have more time, I will study English every day.",
+    "right": "If I had more time, I would study English every day.",
+    "examples": [
+      "If I lived abroad for a year, I would become much more fluent.",
+      "What would you do if you could speak English perfectly?",
+      "I would travel the world if I had enough money.",
+      "If I weren't so busy, I would dedicate more time to speaking practice."
+    ],
+    "tags": [
+      "conditionals",
+      "grammar",
+      "conversation"
+    ],
+    "date": "2026-06-05"
   }
 ]

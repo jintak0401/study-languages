@@ -515,5 +515,80 @@
       "informal"
     ],
     "date": "2026-06-04"
+  },
+  {
+    "id": "afford",
+    "word": "afford (to do)",
+    "partOfSpeech": "verb",
+    "meaning": "(시간·돈의) 여유가 있다 — to have enough money, time, or ability to do something",
+    "examples": [
+      "If I could afford it, I would take an English course abroad.",
+      "I can't afford to miss any more practice sessions this week."
+    ],
+    "tags": [
+      "verb",
+      "money"
+    ],
+    "date": "2026-06-05"
+  },
+  {
+    "id": "immerse",
+    "word": "immerse (yourself in)",
+    "partOfSpeech": "verb",
+    "meaning": "몰입하다, 완전히 빠져들다 — to involve yourself deeply in something",
+    "examples": [
+      "If I lived in an English-speaking country, I would immerse myself in the language.",
+      "The best way to learn is to immerse yourself completely."
+    ],
+    "tags": [
+      "learning",
+      "verb"
+    ],
+    "date": "2026-06-05"
+  },
+  {
+    "id": "abroad",
+    "word": "abroad",
+    "partOfSpeech": "adverb",
+    "meaning": "해외에서, 외국에 — in or to a foreign country",
+    "examples": [
+      "If I had the chance, I would study abroad for a year.",
+      "She lived abroad for three years and her English improved a lot."
+    ],
+    "tags": [
+      "travel",
+      "adverb"
+    ],
+    "date": "2026-06-05"
+  },
+  {
+    "id": "dedicate",
+    "word": "dedicate (time/effort to)",
+    "partOfSpeech": "verb",
+    "meaning": "전념하다, ~에 쏟아붓다 — to give a large amount of time or effort to something",
+    "examples": [
+      "If I had fewer responsibilities, I would dedicate an hour a day to speaking practice.",
+      "You need to dedicate real time to it if you want to improve quickly."
+    ],
+    "tags": [
+      "learning",
+      "verb"
+    ],
+    "date": "2026-06-05"
+  },
+  {
+    "id": "pick-up",
+    "word": "pick up (a language / a skill)",
+    "partOfSpeech": "phrasal verb",
+    "meaning": "(언어·기술을) 자연스럽게 터득하다 — to learn something informally, without formal study",
+    "examples": [
+      "If I watched English TV every day, I would pick up the accent naturally.",
+      "Children pick up languages so quickly because they're not afraid to make mistakes."
+    ],
+    "tags": [
+      "learning",
+      "phrasal-verb"
+    ],
+    "date": "2026-06-05"
   }
 ]

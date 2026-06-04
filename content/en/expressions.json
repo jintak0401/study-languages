@@ -368,5 +368,55 @@
       "Have you ever had a moment when everything just has clicked?",
       "Did you ever have a moment when everything just clicked?"
     ]
+  },
+  {
+    "id": "if-i-had-more-time",
+    "text": "If I had more free time, I would immerse myself in English every day.",
+    "ko": "시간이 더 있다면, 매일 영어에 완전히 빠져들 텐데요.",
+    "examples": [
+      "If I had more free time, I would immerse myself in English every day.",
+      "If I weren't so busy, I'd spend more time on listening practice."
+    ],
+    "paraphrases": [
+      "If I weren't so busy, I'd dedicate more time to English every day.",
+      "I wish I had more free time — I'd listen to English podcasts for hours.",
+      "With more free time, I would push my English much further."
+    ],
+    "tags": [
+      "conditionals",
+      "hypothetical",
+      "conversation"
+    ],
+    "date": "2026-06-05",
+    "distractors": [
+      "If I would have more free time, I would immerse myself in English every day.",
+      "If I had more free time, I will immerse myself in English every day.",
+      "If I had more free time, I would immersed myself in English every day."
+    ]
+  },
+  {
+    "id": "what-would-you-do",
+    "text": "What would you do if you could speak English perfectly?",
+    "ko": "영어를 완벽하게 말할 수 있다면 어떻게 하실 건가요?",
+    "examples": [
+      "What would you do if you could speak English perfectly?",
+      "What would change in your life if you became fluent tomorrow?"
+    ],
+    "paraphrases": [
+      "How would your life change if your English were perfect?",
+      "If you were perfectly fluent, what would be different for you?",
+      "Imagine you could speak English flawlessly — what would you do first?"
+    ],
+    "tags": [
+      "conditionals",
+      "hypothetical",
+      "conversation"
+    ],
+    "date": "2026-06-05",
+    "distractors": [
+      "What would you do if you can speak English perfectly?",
+      "What will you do if you could speak English perfectly?",
+      "What would you do if you could speaking English perfectly?"
+    ]
   }
 ]
