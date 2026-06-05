@@ -418,5 +418,55 @@
       "What will you do if you could speak English perfectly?",
       "What would you do if you could speaking English perfectly?"
     ]
+  },
+  {
+    "id": "going-to-practice",
+    "text": "I'm going to practise speaking every day from now on.",
+    "ko": "이제부터 매일 말하기 연습을 할 거예요.",
+    "examples": [
+      "I'm going to practise speaking every day from now on.",
+      "I plan to do at least ten minutes of speaking practice every morning."
+    ],
+    "paraphrases": [
+      "I plan to practise speaking every single day.",
+      "I intend to work on my speaking skills daily from now on.",
+      "My goal is to speak English every day going forward."
+    ],
+    "tags": [
+      "future",
+      "planning",
+      "conversation"
+    ],
+    "date": "2026-06-06",
+    "distractors": [
+      "I'm go to practise speaking every day from now on.",
+      "I'm going to practised speaking every day from now on.",
+      "I'm going practise speaking every day from now on."
+    ]
+  },
+  {
+    "id": "looking-forward-to",
+    "text": "I'm really looking forward to having a real conversation in English.",
+    "ko": "실제로 영어로 대화하는 게 정말 기대돼요.",
+    "examples": [
+      "I'm really looking forward to having a real conversation in English.",
+      "I can't wait to try speaking with a native speaker."
+    ],
+    "paraphrases": [
+      "I can't wait to have an actual conversation in English.",
+      "I'm excited about the idea of speaking English with someone naturally.",
+      "Having a real conversation in English is something I really look forward to."
+    ],
+    "tags": [
+      "future",
+      "feelings",
+      "conversation"
+    ],
+    "date": "2026-06-06",
+    "distractors": [
+      "I'm really looking forward to have a real conversation in English.",
+      "I'm really look forward to having a real conversation in English.",
+      "I'm really looking forward to having a real conversation on English."
+    ]
   }
 ]

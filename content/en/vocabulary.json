@@ -590,5 +590,80 @@
       "phrasal-verb"
     ],
     "date": "2026-06-05"
+  },
+  {
+    "id": "intend",
+    "word": "intend (to do)",
+    "partOfSpeech": "verb",
+    "meaning": "~할 작정이다, ~할 의도이다 — to have a plan or purpose to do something",
+    "examples": [
+      "I intend to pass the English test by the end of the year.",
+      "She didn't intend to be rude — she was just being direct."
+    ],
+    "tags": [
+      "planning",
+      "verb"
+    ],
+    "date": "2026-06-06"
+  },
+  {
+    "id": "arrange",
+    "word": "arrange",
+    "partOfSpeech": "verb",
+    "meaning": "준비하다, 마련하다 — to make plans or organise something in advance",
+    "examples": [
+      "I've arranged to meet a language exchange partner next Saturday.",
+      "Can we arrange a time to practise speaking together?"
+    ],
+    "tags": [
+      "planning",
+      "verb"
+    ],
+    "date": "2026-06-06"
+  },
+  {
+    "id": "look-forward-to",
+    "word": "look forward to (+ noun / -ing)",
+    "partOfSpeech": "phrasal verb",
+    "meaning": "~을 기대하다 — to feel excited about something that will happen (always followed by a noun or -ing, never a base verb)",
+    "examples": [
+      "I'm really looking forward to our next session.",
+      "She's looking forward to starting her new job abroad."
+    ],
+    "tags": [
+      "feelings",
+      "phrasal-verb"
+    ],
+    "date": "2026-06-06"
+  },
+  {
+    "id": "definitely",
+    "word": "definitely",
+    "partOfSpeech": "adverb",
+    "meaning": "분명히, 반드시 — without any doubt; used to agree strongly or emphasise certainty",
+    "examples": [
+      "I'm definitely going to review my notes before the next session.",
+      "'Are you going to practise speaking today?' 'Definitely!'"
+    ],
+    "tags": [
+      "adverb",
+      "emphasis"
+    ],
+    "date": "2026-06-06"
+  },
+  {
+    "id": "upcoming",
+    "word": "upcoming",
+    "partOfSpeech": "adjective",
+    "meaning": "다가오는, 곧 있을 — happening or expected in the near future",
+    "examples": [
+      "I'm preparing for an upcoming job interview in English.",
+      "Do you have any upcoming trips planned?"
+    ],
+    "tags": [
+      "time",
+      "adjective"
+    ],
+    "date": "2026-06-06"
   }
 ]

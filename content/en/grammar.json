@@ -224,5 +224,24 @@
       "conversation"
     ],
     "date": "2026-06-05"
+  },
+  {
+    "id": "future-plans-going-to",
+    "title": "Future plans: be going to / planning to / intending to",
+    "rule": "Use 'be going to + base verb' for plans already decided before the moment of speaking. Use 'will + base verb' for spontaneous decisions made right now. Use 'planning to + verb', 'thinking of + -ing', or 'intending to + verb' as natural alternatives for pre-decided intentions. Never say 'I am go to' or 'I will going to'.",
+    "wrong": "I will visit Japan next month. (you already booked the tickets)",
+    "right": "I'm going to visit Japan next month. (plan was already decided)",
+    "examples": [
+      "I'm going to start a speaking course next month — I've already signed up.",
+      "A: We're out of coffee. B: Don't worry, I'll grab some on the way home. (spontaneous → will)",
+      "I'm planning to join a language exchange group once I feel more confident.",
+      "I'm thinking of signing up for an online English class — have you tried one?"
+    ],
+    "tags": [
+      "verbs",
+      "future",
+      "conversation"
+    ],
+    "date": "2026-06-06"
   }
 ]
