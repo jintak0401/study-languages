@@ -665,5 +665,80 @@
       "adjective"
     ],
     "date": "2026-06-06"
+  },
+  {
+    "id": "despite",
+    "word": "despite",
+    "partOfSpeech": "preposition",
+    "meaning": "~에도 불구하고 — used to say something happened even though it might have been prevented (always followed by a noun or -ing, NOT a subject+verb clause)",
+    "examples": [
+      "Despite making many mistakes, I kept on speaking.",
+      "She passed the exam despite not studying much."
+    ],
+    "tags": [
+      "prepositions",
+      "contrast"
+    ],
+    "date": "2026-06-07"
+  },
+  {
+    "id": "occasionally",
+    "word": "occasionally",
+    "partOfSpeech": "adverb",
+    "meaning": "가끔, 이따금 — sometimes, but not very often or regularly",
+    "examples": [
+      "I occasionally watch English movies without subtitles.",
+      "She occasionally forgets words, but she never stops talking."
+    ],
+    "tags": [
+      "time",
+      "frequency"
+    ],
+    "date": "2026-06-07"
+  },
+  {
+    "id": "whereas",
+    "word": "whereas",
+    "partOfSpeech": "conjunction",
+    "meaning": "반면에 — used to contrast two different facts or situations",
+    "examples": [
+      "I find grammar easy, whereas pronunciation is still a challenge.",
+      "Some people learn by reading, whereas others prefer listening."
+    ],
+    "tags": [
+      "conjunctions",
+      "contrast"
+    ],
+    "date": "2026-06-07"
+  },
+  {
+    "id": "regardless",
+    "word": "regardless (of)",
+    "partOfSpeech": "adverb",
+    "meaning": "상관없이, 그럼에도 불구하고 — without being affected by something else",
+    "examples": [
+      "I'm going to keep practising, regardless of how tired I feel.",
+      "Regardless of your level, speaking every day helps."
+    ],
+    "tags": [
+      "emphasis",
+      "contrast"
+    ],
+    "date": "2026-06-07"
+  },
+  {
+    "id": "obstacle",
+    "word": "obstacle",
+    "partOfSpeech": "noun",
+    "meaning": "장애물, 걸림돌 — something that makes it difficult to do or achieve something",
+    "examples": [
+      "Fear of making mistakes is the biggest obstacle to speaking naturally.",
+      "There will always be obstacles, but you can work through them."
+    ],
+    "tags": [
+      "learning",
+      "noun"
+    ],
+    "date": "2026-06-07"
   }
 ]

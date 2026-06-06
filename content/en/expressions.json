@@ -468,5 +468,55 @@
       "I'm really look forward to having a real conversation in English.",
       "I'm really looking forward to having a real conversation on English."
     ]
+  },
+  {
+    "id": "even-though-i-make-mistakes",
+    "text": "Even though I make mistakes, I try to keep going.",
+    "ko": "실수를 해도, 계속해 나가려고 노력해요.",
+    "examples": [
+      "Even though I make mistakes, I try to keep going.",
+      "Although I'm not perfect, I never stop practising."
+    ],
+    "paraphrases": [
+      "Although I make errors, I don't let them stop me.",
+      "Despite making mistakes, I push myself to continue.",
+      "I keep going, even when I get something wrong."
+    ],
+    "tags": [
+      "conversation",
+      "fluency",
+      "concession"
+    ],
+    "date": "2026-06-07",
+    "distractors": [
+      "Despite I make mistakes, I try to keep going.",
+      "Even though I making mistakes, I try to keep going.",
+      "Even though I make mistakes, I try to kept going."
+    ]
+  },
+  {
+    "id": "despite-being-nervous",
+    "text": "Despite being nervous, I tried speaking English with a stranger.",
+    "ko": "긴장됐음에도 불구하고, 낯선 사람과 영어로 말해봤어요.",
+    "examples": [
+      "Despite being nervous, I tried speaking English with a stranger.",
+      "In spite of feeling shy, I started the conversation."
+    ],
+    "paraphrases": [
+      "Even though I was nervous, I spoke to a stranger in English.",
+      "Although I felt anxious, I tried talking to someone in English.",
+      "I pushed through my nerves and spoke in English."
+    ],
+    "tags": [
+      "conversation",
+      "fluency",
+      "concession"
+    ],
+    "date": "2026-06-07",
+    "distractors": [
+      "Despite I was nervous, I tried speaking English with a stranger.",
+      "Despite being nervous, I tried to speaking English with a stranger.",
+      "Despite being nervous, I try speaking English with a stranger."
+    ]
   }
 ]
