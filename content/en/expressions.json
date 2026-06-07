@@ -518,5 +518,55 @@
       "Despite being nervous, I tried to speaking English with a stranger.",
       "Despite being nervous, I try speaking English with a stranger."
     ]
+  },
+  {
+    "id": "the-thing-that",
+    "text": "The thing that I find hardest about English is speaking without thinking.",
+    "ko": "영어에서 제가 가장 어렵게 느끼는 건 생각 없이 말하는 거예요.",
+    "examples": [
+      "The thing that I find hardest about English is speaking without thinking.",
+      "What I find most difficult is choosing the right word in the moment."
+    ],
+    "paraphrases": [
+      "What I struggle with most is speaking spontaneously.",
+      "The hardest part for me is talking naturally without pausing to translate.",
+      "Speaking without preparation is the thing that challenges me most."
+    ],
+    "tags": [
+      "conversation",
+      "clauses",
+      "fluency"
+    ],
+    "date": "2026-06-08",
+    "distractors": [
+      "The thing what I find hardest about English is speaking without thinking.",
+      "The thing that I find hardest about English are speaking without thinking.",
+      "The thing that I finding hardest about English is speaking without thinking."
+    ]
+  },
+  {
+    "id": "partner-who-speaks-only-english",
+    "text": "I'd love to find a conversation partner who speaks only in English.",
+    "ko": "영어로만 말하는 대화 상대를 찾고 싶어요.",
+    "examples": [
+      "I'd love to find a conversation partner who speaks only in English.",
+      "My dream is to meet someone who can correct me naturally."
+    ],
+    "paraphrases": [
+      "I want a study partner who pushes me to speak only in English.",
+      "Finding someone who refuses to switch to Korean would really help me.",
+      "A conversation partner who only uses English would be ideal for me."
+    ],
+    "tags": [
+      "conversation",
+      "clauses",
+      "planning"
+    ],
+    "date": "2026-06-08",
+    "distractors": [
+      "I'd love to find a conversation partner which speaks only in English.",
+      "I'd love to find a conversation partner who speak only in English.",
+      "I'd love to find a conversation partner who speaks only in the English."
+    ]
   }
 ]

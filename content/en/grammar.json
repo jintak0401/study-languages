@@ -262,5 +262,24 @@
       "conversation"
     ],
     "date": "2026-06-07"
+  },
+  {
+    "id": "relative-clauses",
+    "title": "Relative clauses: who / which / that",
+    "rule": "A relative clause describes a noun by adding information about it. Use 'who' for people, 'which' for things, and 'that' for either (common in conversation). Place the relative pronoun directly after the noun it describes. Do NOT add an extra pronoun inside the clause ('The person who he helped me' is wrong — 'he' is redundant). Do NOT use 'what' as a relative pronoun.",
+    "wrong": "The book what I'm reading is really helpful.",
+    "right": "The book that I'm reading is really helpful.",
+    "examples": [
+      "The person who helped me the most was my English teacher.",
+      "I love films that make you think about life.",
+      "The method which works best for me is listening to podcasts.",
+      "Do you remember the word that came up in our last session?"
+    ],
+    "tags": [
+      "grammar",
+      "clauses",
+      "conversation"
+    ],
+    "date": "2026-06-08"
   }
 ]

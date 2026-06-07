@@ -740,5 +740,81 @@
       "noun"
     ],
     "date": "2026-06-07"
+  },
+  {
+    "id": "mention",
+    "word": "mention",
+    "partOfSpeech": "verb / noun",
+    "meaning": "언급하다 / 언급 — to say or write something briefly in passing",
+    "examples": [
+      "Did I mention that I've been practising speaking every day?",
+      "She mentioned a book that really helped her improve."
+    ],
+    "tags": [
+      "verb",
+      "communication"
+    ],
+    "date": "2026-06-08"
+  },
+  {
+    "id": "impress",
+    "word": "impress",
+    "partOfSpeech": "verb",
+    "meaning": "인상을 주다, 감동시키다 — to make someone feel admiration or respect",
+    "examples": [
+      "I was really impressed by the student who spoke so naturally.",
+      "Speaking without hesitation is something that always impresses people."
+    ],
+    "tags": [
+      "verb",
+      "feelings"
+    ],
+    "date": "2026-06-08"
+  },
+  {
+    "id": "specific",
+    "word": "specific",
+    "partOfSpeech": "adjective",
+    "meaning": "구체적인, 특정한 — relating to one particular thing rather than something general",
+    "examples": [
+      "Can you give me a specific example of what you mean?",
+      "I want to work on a specific grammar point that I keep getting wrong."
+    ],
+    "tags": [
+      "adjective",
+      "communication"
+    ],
+    "date": "2026-06-08"
+  },
+  {
+    "id": "relate-to",
+    "word": "relate to",
+    "partOfSpeech": "phrasal verb",
+    "meaning": "공감하다, ~와 관련이 있다 — to understand and feel connected to something or someone",
+    "examples": [
+      "I can really relate to people who feel nervous about speaking.",
+      "Find topics that you can relate to — it makes conversation much easier."
+    ],
+    "tags": [
+      "phrasal-verb",
+      "feelings",
+      "conversation"
+    ],
+    "date": "2026-06-08"
+  },
+  {
+    "id": "plenty-of",
+    "word": "plenty of",
+    "partOfSpeech": "quantifier",
+    "meaning": "충분한, 많은 — a large amount; more than enough",
+    "examples": [
+      "There are plenty of topics that we can talk about in English.",
+      "Don't worry — you'll have plenty of chances to practise."
+    ],
+    "tags": [
+      "quantifiers",
+      "conversation"
+    ],
+    "date": "2026-06-08"
   }
 ]
