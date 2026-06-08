@@ -816,5 +816,80 @@
       "conversation"
     ],
     "date": "2026-06-08"
+  },
+  {
+    "id": "report",
+    "word": "report",
+    "partOfSpeech": "verb / noun",
+    "meaning": "보고하다 / 보고 — to give information about something; a piece of information given",
+    "examples": [
+      "She reported that the meeting had gone well.",
+      "According to the report, speaking every day really helps."
+    ],
+    "tags": [
+      "communication",
+      "verb"
+    ],
+    "date": "2026-06-09"
+  },
+  {
+    "id": "inform",
+    "word": "inform",
+    "partOfSpeech": "verb",
+    "meaning": "알리다, 통보하다 — to officially tell someone about something",
+    "examples": [
+      "Please inform me if the time changes.",
+      "She informed us that the class had been cancelled."
+    ],
+    "tags": [
+      "communication",
+      "verb"
+    ],
+    "date": "2026-06-09"
+  },
+  {
+    "id": "claim",
+    "word": "claim",
+    "partOfSpeech": "verb / noun",
+    "meaning": "주장하다 / 주장 — to say something is true, often without full proof",
+    "examples": [
+      "He claimed that he had practised for ten hours straight.",
+      "Her claim that grammar doesn't matter surprised me."
+    ],
+    "tags": [
+      "communication",
+      "opinions"
+    ],
+    "date": "2026-06-09"
+  },
+  {
+    "id": "deny",
+    "word": "deny",
+    "partOfSpeech": "verb",
+    "meaning": "부정하다, 부인하다 — to say that something is not true",
+    "examples": [
+      "She denied that she had missed the session.",
+      "He denied saying anything rude — he said he was just being direct."
+    ],
+    "tags": [
+      "communication",
+      "verb"
+    ],
+    "date": "2026-06-09"
+  },
+  {
+    "id": "admit",
+    "word": "admit",
+    "partOfSpeech": "verb",
+    "meaning": "인정하다, 시인하다 — to agree that something is true, often reluctantly",
+    "examples": [
+      "I have to admit that speaking is still my weakest skill.",
+      "He finally admitted that he hadn't practised at all that week."
+    ],
+    "tags": [
+      "communication",
+      "honesty"
+    ],
+    "date": "2026-06-09"
   }
 ]

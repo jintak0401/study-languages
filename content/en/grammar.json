@@ -281,5 +281,24 @@
       "conversation"
     ],
     "date": "2026-06-08"
+  },
+  {
+    "id": "reported-speech",
+    "title": "Reported speech: say (that) / tell someone (that)",
+    "rule": "When reporting what someone said, shift the tense back: present → past, will → would, can → could. Use 'tell + person + (that)' or 'say + (that)' — never 'say + person'. The word 'that' is optional in spoken English. Also update pronouns: 'I' → 'he/she', 'my' → 'his/her'.",
+    "wrong": "She said me that she likes learning English.",
+    "right": "She told me that she liked learning English. ('tell + person'; likes → liked)",
+    "examples": [
+      "He said that he was practising speaking every morning.",
+      "She told me that she couldn't come to the study session.",
+      "They said the new method would be more effective.",
+      "My teacher told us that making mistakes is the best way to learn."
+    ],
+    "tags": [
+      "grammar",
+      "clauses",
+      "conversation"
+    ],
+    "date": "2026-06-09"
   }
 ]

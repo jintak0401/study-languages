@@ -568,5 +568,55 @@
       "I'd love to find a conversation partner who speak only in English.",
       "I'd love to find a conversation partner who speaks only in the English."
     ]
+  },
+  {
+    "id": "i-heard-that",
+    "text": "I heard that speaking every day is the fastest way to improve.",
+    "ko": "매일 말하기가 실력을 키우는 가장 빠른 방법이라고 들었어요.",
+    "examples": [
+      "I heard that speaking every day is the fastest way to improve.",
+      "Someone told me that daily conversation beats any textbook."
+    ],
+    "paraphrases": [
+      "Someone told me that speaking every day is the quickest route to fluency.",
+      "I've read that daily speaking practice is the most effective method.",
+      "I understand that regular speaking is what makes you fluent the fastest."
+    ],
+    "tags": [
+      "reported-speech",
+      "conversation",
+      "learning"
+    ],
+    "date": "2026-06-09",
+    "distractors": [
+      "I heard that speak every day is the fastest way to improve.",
+      "I heard that speaking every day are the fastest way to improve.",
+      "I heard that speaking every day is a fastest way to improve."
+    ]
+  },
+  {
+    "id": "she-told-me-she-would",
+    "text": "She told me that she would try speaking English with a stranger.",
+    "ko": "그녀가 낯선 사람과 영어로 말해볼 거라고 나에게 말했어요.",
+    "examples": [
+      "She told me that she would try speaking English with a stranger.",
+      "He said that he was going to practise speaking more from now on."
+    ],
+    "paraphrases": [
+      "She mentioned she was planning to speak English with someone she didn't know.",
+      "She said she'd give speaking to a stranger a go.",
+      "She told me her plan was to try English with a new person."
+    ],
+    "tags": [
+      "reported-speech",
+      "conversation",
+      "future"
+    ],
+    "date": "2026-06-09",
+    "distractors": [
+      "She told me that she will try speaking English with a stranger.",
+      "She said me that she would try speaking English with a stranger.",
+      "She told me that she would to try speaking English with a stranger."
+    ]
   }
 ]
