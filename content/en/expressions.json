@@ -618,5 +618,55 @@
       "She said me that she would try speaking English with a stranger.",
       "She told me that she would to try speaking English with a stranger."
     ]
+  },
+  {
+    "id": "was-made-by",
+    "text": "This phone was made by a Korean company.",
+    "ko": "이 폰은 한국 회사가 만들었어요. (수동태: was made by ~)",
+    "examples": [
+      "This phone was made by a Korean company.",
+      "That famous app was created by a small team of developers."
+    ],
+    "paraphrases": [
+      "A Korean company made this phone.",
+      "This phone is a product of a Korean company.",
+      "A Korean company is behind this phone."
+    ],
+    "tags": [
+      "passive",
+      "conversation",
+      "technology"
+    ],
+    "date": "2026-06-10",
+    "distractors": [
+      "This phone was make by a Korean company.",
+      "This phone was made from a Korean company.",
+      "This phone made by a Korean company."
+    ]
+  },
+  {
+    "id": "english-is-spoken",
+    "text": "English is spoken all over the world.",
+    "ko": "영어는 전 세계에서 쓰여요. (수동태 현재: is spoken)",
+    "examples": [
+      "English is spoken all over the world.",
+      "Korean is spoken mainly in Korea, but it's also studied globally."
+    ],
+    "paraphrases": [
+      "People speak English all over the world.",
+      "English is used everywhere around the globe.",
+      "English is the language most widely spoken worldwide."
+    ],
+    "tags": [
+      "passive",
+      "conversation",
+      "language"
+    ],
+    "date": "2026-06-10",
+    "distractors": [
+      "English is speak all over the world.",
+      "English is spoke all over the world.",
+      "English spoken all over the world."
+    ]
   }
 ]

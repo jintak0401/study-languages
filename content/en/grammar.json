@@ -300,5 +300,24 @@
       "conversation"
     ],
     "date": "2026-06-09"
+  },
+  {
+    "id": "passive-voice",
+    "title": "Passive voice: be + past participle",
+    "rule": "Use the passive voice when the action matters more than who did it, or when the doer is unknown or obvious. Form: subject + am/is/are + past participle (present) or was/were + past participle (past). To mention the doer, add 'by + agent'. Common mistake: using the simple past form instead of the past participle after 'be' (e.g. 'was wrote' instead of 'was written').",
+    "wrong": "This book was wrote by a famous author.",
+    "right": "This book was written by a famous author. (write → written, not 'wrote')",
+    "examples": [
+      "English is spoken in more than 50 countries.",
+      "The new app was released last week.",
+      "I was told that the meeting had been cancelled.",
+      "The report will be published on Friday."
+    ],
+    "tags": [
+      "grammar",
+      "passive",
+      "intermediate"
+    ],
+    "date": "2026-06-10"
   }
 ]

@@ -891,5 +891,85 @@
       "honesty"
     ],
     "date": "2026-06-09"
+  },
+  {
+    "id": "manufacture",
+    "word": "manufacture",
+    "partOfSpeech": "verb / noun",
+    "meaning": "제조하다, 생산하다 — to make goods in large quantities using machines; the process of making goods",
+    "examples": [
+      "These cars are manufactured in a factory in Busan.",
+      "The company manufactures electronics and ships them worldwide."
+    ],
+    "tags": [
+      "passive",
+      "industry",
+      "verb"
+    ],
+    "date": "2026-06-10"
+  },
+  {
+    "id": "broadcast",
+    "word": "broadcast",
+    "partOfSpeech": "verb / noun",
+    "meaning": "방송하다; 방송 — to send out a programme on TV, radio, or the internet",
+    "examples": [
+      "The game will be broadcast live tonight.",
+      "Her speech was broadcast on every major news channel."
+    ],
+    "tags": [
+      "passive",
+      "media",
+      "verb"
+    ],
+    "date": "2026-06-10"
+  },
+  {
+    "id": "hire",
+    "word": "hire",
+    "partOfSpeech": "verb",
+    "meaning": "고용하다 — to give someone a job; to pay them to work for you",
+    "examples": [
+      "She was hired as a customer support specialist.",
+      "They hired three new engineers to work on the project."
+    ],
+    "tags": [
+      "passive",
+      "work",
+      "verb"
+    ],
+    "date": "2026-06-10"
+  },
+  {
+    "id": "publish",
+    "word": "publish",
+    "partOfSpeech": "verb",
+    "meaning": "출판하다; 발표하다 — to make a book, article, or piece of information available to the public",
+    "examples": [
+      "His first novel was published when he was only 24.",
+      "The results will be published on the official website."
+    ],
+    "tags": [
+      "passive",
+      "media",
+      "verb"
+    ],
+    "date": "2026-06-10"
+  },
+  {
+    "id": "replace",
+    "word": "replace",
+    "partOfSpeech": "verb",
+    "meaning": "교체하다; 대체하다 — to put someone or something new in the place of another",
+    "examples": [
+      "The old manager was replaced by someone from the Seoul office.",
+      "My broken laptop was replaced for free under the warranty."
+    ],
+    "tags": [
+      "passive",
+      "change",
+      "verb"
+    ],
+    "date": "2026-06-10"
   }
 ]
