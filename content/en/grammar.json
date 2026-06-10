@@ -319,5 +319,24 @@
       "intermediate"
     ],
     "date": "2026-06-10"
+  },
+  {
+    "id": "question-tags",
+    "title": "Question tags: isn't it? / don't you? / haven't you?",
+    "rule": "A question tag is a short yes/no question added to the end of a statement to check information or invite agreement. Rule: positive statement → negative tag; negative statement → positive tag. The tag must use the SAME auxiliary verb (is/are/do/does/did/have/has/can/will) and subject pronoun as the main sentence. The most common Korean-English mistake is using 'isn't it?' for every sentence — only use it when the main verb is a form of 'be'.",
+    "wrong": "You study English every day, isn't it?",
+    "right": "You study English every day, don't you? (match the auxiliary: 'study' → 'do', not 'is')",
+    "examples": [
+      "She has studied abroad before, hasn't she?",
+      "You can speak Japanese, can't you?",
+      "They didn't cancel the meeting, did they?",
+      "It's not as hard as it looks, is it?"
+    ],
+    "tags": [
+      "questions",
+      "conversation",
+      "grammar"
+    ],
+    "date": "2026-06-11"
   }
 ]

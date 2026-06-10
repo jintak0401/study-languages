@@ -971,5 +971,80 @@
       "verb"
     ],
     "date": "2026-06-10"
+  },
+  {
+    "id": "confirm",
+    "word": "confirm",
+    "partOfSpeech": "verb",
+    "meaning": "확인하다 — to make sure that something is correct or will happen",
+    "examples": [
+      "Can you confirm the meeting is still at 3 pm?",
+      "Just checking — we're meeting on Friday, aren't we? Let me confirm with the team."
+    ],
+    "tags": [
+      "communication",
+      "verb"
+    ],
+    "date": "2026-06-11"
+  },
+  {
+    "id": "assume",
+    "word": "assume",
+    "partOfSpeech": "verb",
+    "meaning": "가정하다, 추측하다 — to believe something is true without actually checking",
+    "examples": [
+      "I assumed you were coming — you are, aren't you?",
+      "Don't assume you know the answer; ask first."
+    ],
+    "tags": [
+      "thinking",
+      "communication"
+    ],
+    "date": "2026-06-11"
+  },
+  {
+    "id": "obvious",
+    "word": "obvious",
+    "partOfSpeech": "adjective",
+    "meaning": "명백한, 뻔한 — easy to see or understand; clear to anyone",
+    "examples": [
+      "That's obvious, isn't it? You can hear the difference straight away.",
+      "It's obvious that regular practice helps, but many people skip it."
+    ],
+    "tags": [
+      "adjective",
+      "emphasis"
+    ],
+    "date": "2026-06-11"
+  },
+  {
+    "id": "familiar",
+    "word": "familiar",
+    "partOfSpeech": "adjective",
+    "meaning": "익숙한, 낯익은 — well known because you have seen or heard it before",
+    "examples": [
+      "This grammar rule sounds familiar, doesn't it? We covered something similar last week.",
+      "The expression feels familiar because it's close to the Korean structure."
+    ],
+    "tags": [
+      "adjective",
+      "learning"
+    ],
+    "date": "2026-06-11"
+  },
+  {
+    "id": "tag-along",
+    "word": "tag along",
+    "partOfSpeech": "phrasal verb",
+    "meaning": "따라가다, 함께 가다 — to go somewhere with others, often informally or uninvited",
+    "examples": [
+      "You're coming with us tonight, aren't you? Feel free to tag along.",
+      "She tagged along with the group even though she hadn't planned to."
+    ],
+    "tags": [
+      "phrasal-verb",
+      "conversation"
+    ],
+    "date": "2026-06-11"
   }
 ]

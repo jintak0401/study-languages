@@ -668,5 +668,55 @@
       "English is spoke all over the world.",
       "English spoken all over the world."
     ]
+  },
+  {
+    "id": "you-have-studied-havent-you",
+    "text": "You've studied Japanese before, haven't you?",
+    "ko": "전에 일본어 공부한 적 있죠?",
+    "examples": [
+      "You've studied Japanese before, haven't you?",
+      "You've tried speaking with a native speaker before, haven't you?"
+    ],
+    "paraphrases": [
+      "If I remember correctly, you've studied Japanese before.",
+      "You have some Japanese experience, right?",
+      "Am I right that you've studied Japanese in the past?"
+    ],
+    "tags": [
+      "questions",
+      "conversation",
+      "present-perfect"
+    ],
+    "date": "2026-06-11",
+    "distractors": [
+      "You've studied Japanese before, isn't it?",
+      "You've studied Japanese before, didn't you?",
+      "You've studied Japanese before, haven't he?"
+    ]
+  },
+  {
+    "id": "not-as-hard-as-it-looks",
+    "text": "It's not as difficult as it looks, is it?",
+    "ko": "보이는 것만큼 어렵지는 않죠?",
+    "examples": [
+      "It's not as difficult as it looks, is it?",
+      "The grammar isn't as confusing as it seems, is it?"
+    ],
+    "paraphrases": [
+      "Don't be put off — it's easier than it appears.",
+      "It looks scary, but it's actually not that hard.",
+      "Once you try it, you'll see it's not as tough as it seems."
+    ],
+    "tags": [
+      "questions",
+      "conversation",
+      "encouragement"
+    ],
+    "date": "2026-06-11",
+    "distractors": [
+      "It's not as difficult as it looks, isn't it?",
+      "It's not as difficult as it look, is it?",
+      "It's not as difficult as it looks, does it?"
+    ]
   }
 ]
